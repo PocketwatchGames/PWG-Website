@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pocketwatch Games</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/global.css">
+
+	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+	<!--[if lt IE 9]>
+	<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<aside>
+		<div class="logo">
+			<a href="/"></a>
+			<img src="images/pw_logo_w.png" alt="Pocketwatch Games">
+		</div>
+
+		<h3 style="padding-left:10px;padding-top:10px;margin-bottom:0px;">Follow Us</h3>
+		<ul class="social ico" style='margin-bottom:10px;'>
+			<li class="tw"><a href="http://twitter.com/PocketwatchG"><i class="icon-twitter"></i> </a></li>
+			<li class="fb"><a href="https://facebook.com/PocketwatchGames"><i class="icon-facebook"></i> </a></li>
+			<li class="yt"><a href="http://youtube.com/pocketwatchgames"><i class="icon-youtube"></i></a></li>
+			<li class="rdt"><a href="http://reddit.com/r/PocketwatchGames/"><i class="icon-reddit"></i></a></li>
+			<li class="rss"><a href="http://blog.pocketwatchgames.com/rss"><i class="icon-feed"></i></a></li>
+		</ul>
+		<a class="twitch" href="http://www.twitch.tv/Pocketwatch">
+			<i class="icon-twitch"></i> Pocketwatch <span></span>
+			<em>Every Thursday @ 2PM PDT/5PM EDT</em>
+		</a>
+
+		<ul class="social">
+			<li><a href="/about.html">About</a></li>
+			<li><a href="http://blog.pocketwatchgames.com/">Blog</a></li>
+			<li><a href="/games.html">Games</a></li>
+			<li><a href="http://steamcommunity.com/app/113020/discussions/">Monaco Forums</a></li>
+			<li><a href="http://steamcommunity.com/app/286000/discussions/">TnT Forums</a></li>
+			<li><a href="http://pocketwatchgames.com/presskit">Press</a></li>
+		</ul>
+
+		<div class="irc" data-count="20 Users Online">
+			<a href="chat.html"></a>
+		</div>
+
+		<div class="about">
+			<h3>About Us</h3>
+			<p>We're Pocketwatch Games, creators of Monaco and the Venture series. <a href="about.html">Learn More.</a></p>
+		</div>
+
+		<ul class="twitterList">
+			<li>
+				<a href="//twitter.com/andyschatz"></a>
+				<img src="images/andys.jpg" alt="">
+				<p><strong>Andy Schatz</strong>
+				<br> Lead developer of Monaco
+				<br> @AndySchatz
+				</p>
+			</li>
+			<li>
+				<a href="//twitter.com/pixelatedpost"></a>
+				<img src="images/andyn.jpg" alt="">
+				<p><strong>Andy Nguyen</strong>
+				<br> Producer/Designer
+				<br> @pixelatedpost</p>
+			</li>
+			<li>
+				<a href="//twitter.com/AlexFerbrache"></a>
+				<img src="images/alexf.jpg" alt="">
+				<p><strong>Alex Ferbrache</strong>
+				<br> Software Engineer
+				<br> @AlexFerbrache</p>
+			</li>
+			<li>
+			    <a href="//twitter.com/pocketwatchg"></a>
+				<img src="//www.pocketwatchgames.com/images/pw_logo_w.png" alt="">
+				<p class="lastTweet"></p>
+
+				<script type="text/javascript">
+					function recent_tweets(data) {
+						console.log(data[0].text);
+						$(".lastTweet").html(data[0].text);
+						$(".lastTweet").siblings('a').attr('href','http://twitter.com/pocketwatchg/status/' + (data[0].id_str ? data[0].id_str : data[0].id))
+					}
+				</script>
+			</li>
+		</ul>
+	</aside>
+
+	<div class="main cf">
+		<div class="announce">
+			<!-- a href="http://blog.pocketwatchgames.com/post/79286248375" style="background: url(images/fin.jpg)">
+				<h2>Monaco's Final Chapter: Fin. and farewell!</h2>
+			</a -->
+		</div>
+
+		<aside class="games">
+			<h2 class="big">Games</h2>
+
+			<section>
+				<h3>Tooth and Tail</h3>
+				<div style="background-image: url(images/tnt.png)" alt="" class="bg"></div>
+				<a href="//www.toothandtailgame.com" class="main"></a>
+
+				<div class="deets">
+					<span>In Development</span>
+				<div class="deets">
+			</section>
+
+			<section>
+				<h3>Monaco</h3>
+				<img style="background-image: url(images/monaco.png)" alt="" class="bg">
+
+				<a href="http://www.monacoismine.com/" class="main"></a>
+
+				<video preload='auto' autoplay loop class="bg">
+				  	<source src="videos/monaco.webm" type="video/webm">
+		  			<source src="videos/monaco.mp4" type="video/mp4">
+				</video>
+
+				<div class="deets">
+					<a href="http://store.steampowered.com/app/113020/" class="icon-steam"></a>
+					<a href="http://www.monacoismine.com/#store_block" class="icon-humble"></a>
+				</div>
+			</section>
+
+			<section>
+				<h3>Monte Carlo</h3>
+				<img style="background-image: url(images/mcarlo.png)" alt="" class="bg">
+				<a href="games.html#mcarlo" class="main"></a>
+
+				<!--video preload='auto' autoplay loop class="bg">
+				  	<source src="videos/monaco.webm" type="video/webm">
+		  			<source src="videos/monaco.mp4" type="video/mp4">
+				</video-->
+
+				<div class="deets">
+					<a href="games.html#mcarlo" class="icon-download"></a>
+				</div>
+			</section>
+
+			<section>
+				<h3>Venture Arctic</h3>
+
+				<img style="background-image: url(images/arctic.png)" alt="" class="bg">
+
+				<a href="games.html#arctic" class="main"></a>
+
+				<video src="videos/arctic.mp4" preload='auto' autoplay loop class="bg"></video>
+
+				<div class="deets">
+					<a href="games.html#arctic" class="icon-download"></a>
+				</div>
+			</section>
+
+			<section>
+				<h3>Venture Africa</h3>
+
+				<img style="background-image: url(images/africa.png)" alt="" class="bg">
+
+				<a href="games.html#africa" class="main"></a>
+
+				<video src="videos/africa.mp4" preload='auto' autoplay loop class="bg"></video>
+
+				<div class="deets">
+					<a href="games.html#africa" class="icon-download"></a>
+				</div>
+			</section>
+		</aside>
+
+		<div class="content blog">
+			<h2 class="big">Latest News</h2>
+			<div class="posts">
+
+			</div>
+
+			<a href="http://blog.pocketwatchgames.com" class="goto">Read more on our blog</a>
+
+			<footer>Copyright &copy; 2014 All Rights Reserved. Pocketwatch Games, LLC</footer>
+		</div>
+	</div>
+	
+	<!-- Begin MailChimp Signup Form -->
+	<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		#mc-embedded-subscribe-form { padding-left: 0 !important;  }
+		#mc_embed_signup{ 
+			position: fixed; bottom: 0px; right: 0px;
+			z-index: 99; color: white; transition: all 0.5s;
+			background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.7);
+			padding: 10px; width: 400px; text-align: left; 
+		}
+			#mc_embed_signup.hide { transform: translateX(100%); }
+		#mc_embed_signup_scroll {  text-align: center; }
+		input { border: 0 none; border-radius: 4px; }
+		#mc_embed_signup input.email { display: inline-block; vertical-align: middle; margin: 0px; }
+		#mc_embed_signup input.button { background: #49A341; display: inline-block; vertical-align: middle; height: 40px; margin: 0; }
+		#mc_embed_signup input.button:hover { background: #389240; }
+		#mc_embed_signup a { color: white; font-size: 18px; font-weight: bold; position: absolute; top: 0px; left: 10px; }
+	</style>
+	
+	<section id="mc_embed_signup">
+	<form action="//pocketwatchgames.us9.list-manage.com/subscribe/post?u=1d3adea90db9623466c34b842&amp;id=b27c1d02a6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+		<div id="mc_embed_signup_scroll">
+			<label for="mce-EMAIL">Subscribe to our newsletter!</label>
+			<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+			<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+			<div style="position: absolute; left: -5000px;"><input type="text" name="b_1d3adea90db9623466c34b842_b27c1d02a6" tabindex="-1" value=""></div>
+			<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+			<a href="#">&times;</a>
+		</div>
+	</form>
+	</section>
+
+	<!--End mc_embed_signup-->
+
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.3.1/jquery.timeago.min.js"></script>
+	<script src="http://blog.pocketwatchgames.com/api/read/json"></script>
+	<script type="text/javascript" src="http://blog.pocketwatchgames.com/tweets.js"></script>
+	<script src="js/home.js"></script>
+</body>
+</html>
