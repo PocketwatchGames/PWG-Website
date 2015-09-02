@@ -660,7 +660,9 @@ body>aside .twitch.active:after {
     width: 4px
 }
 body>aside .about {
+    color: #CCC;
     font-size: 13px;
+    font-size: 0.8125rem;
     padding: 10px
 }
 @media all and (max-width: 30em) {
