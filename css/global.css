@@ -463,9 +463,9 @@ body>aside .logo img {
 }
 body>aside .social {
     background: #333;
-    font-size: 13px;
-    font-size: 0.8125rem;
-    font-weight: bold;
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: normal;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3)
 }
 body>aside .social.ico {
@@ -645,6 +645,7 @@ body>aside .twitch.active span {
     font-size: 16px;
     font-size: 1rem;
     font-weight: bold
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3)
 }
 body>aside .twitch.active span:before {
     content: "Live"
