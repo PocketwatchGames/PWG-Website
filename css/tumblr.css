@@ -1085,9 +1085,6 @@ aside.games section .deets>span {
     margin: 0 auto 20px;
     max-width: 670px
 }
-.blog article p strong {
-    font-size: 18px
-}
 .blog article span,
 .blog article a {
     display: inline
