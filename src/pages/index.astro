@@ -121,7 +121,7 @@ const finalTweets = [...allTweets].sort((a, b) => {
 					<h2>Stream</h2>
 
 					<aside class="stream">
-            <div class="stream-video"></div>
+						<div class="stream-video"></div>
 					</aside>
 
 					<aside class="tweets">
@@ -153,6 +153,12 @@ const finalTweets = [...allTweets].sort((a, b) => {
 		width: 50%;
 	}
 
+	@media screen and (max-width: 1024px) {
+		.we p {
+			width: 80%;
+		}
+	}
+
 	.news header a {
 		position: absolute;
 		top: 0; right: 0;
@@ -162,6 +168,18 @@ const finalTweets = [...allTweets].sort((a, b) => {
 		display: grid;
 		gap: 30px;
 		grid-template-columns: repeat(4, 1fr);
+	}
+
+	@media screen and (max-width: 1024px) {
+		.news .posts {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+
+	@media screen and (max-width: 600px) {
+		.news .posts {
+			grid-template-columns: 1fr;
+		}
 	}
 
 	.media {
@@ -179,16 +197,16 @@ const finalTweets = [...allTweets].sort((a, b) => {
 	}
 
 	.media .stream {
-    grid-area: stream;
-    padding-right: 5vw;
+		grid-area: stream;
+		padding-right: 5vw;
 		width: 100%;
 	}
-  
-  .stream-video {
-    aspect-ratio: 16 / 9;
-    border: 1px solid var(--color-white);
-    border-radius: 8px;
-  }
+	
+	.stream-video {
+		aspect-ratio: 16 / 9;
+		border: 1px solid var(--color-white);
+		border-radius: 8px;
+	}
 
 	.media .tweets {
 		grid-area: tweets;
