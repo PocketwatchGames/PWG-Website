@@ -1,0 +1,70 @@
+<header>
+	<div class="wrapper">
+		<img
+			height="120"
+			width="120"
+			src="/assets/pwg-logo.svg"
+			alt="Pocketwatch Games"
+		>
+		<nav>
+			<ul>
+				<li><a href="#">Games</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">News</a></li>
+				<li><a href="#">Careers</a></li>
+				<li><a href="#">Contact</a></li>
+				<li>
+					<a href="//www.twitch.tv/pocketwatch">
+						<img src="/assets/icon/twitch.svg" width="32" alt="Twitch">
+					</a>
+					<a href="//twitter.com/PocketwatchG/">
+						<img src="/assets/icon/twitter.svg" width="32" alt="Twitter">
+					</a>
+					<a href="//www.discord.gg/pocketwatch">
+						<img src="/assets/icon/discord.svg" width="32" alt="Discord">
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<style>
+	header .wrapper, header ul {
+		display: flex;
+	}
+
+	header .wrapper {
+		align-items: center;
+		height: 140px;
+		justify-content: space-between;
+	}
+
+	header {
+		background: var(--color-navy);
+		font-family: Gilam, var(--font-body);
+		position: sticky;
+		top: 0;
+		width: 100%;
+		z-index: 1;
+	}
+
+	li {
+		list-style: none;
+		margin: 0 20px;
+		text-transform: uppercase;
+	}
+
+	a {
+		color: var(--color-gray-300);
+		font-size: 1.5rem;
+		margin: 0 10px;
+		padding: 10px 0;
+		text-decoration: none;
+	}
+
+	a:hover {
+		border-bottom: 3px solid var(--color-magenta);
+		text-decoration: none;
+	}
+</style>

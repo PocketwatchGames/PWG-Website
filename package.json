@@ -1,0 +1,19 @@
+{
+  "name": "pocketwatch",
+  "version": "4.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "@astrojs/svelte": "^1.0.0",
+    "astro": "^1.0.3",
+    "svelte": "^3.49.0"
+  },
+  "dependencies": {
+    "twitter-lite": "^1.1.0"
+  }
+}

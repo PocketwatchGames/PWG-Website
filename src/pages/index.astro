@@ -1,0 +1,196 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Hero from "../components/Hero.astro";
+import BlogPostPreview from "../components/BlogPostPreview.astro";
+import Tweet from "../components/Tweet.astro";
+import Footer from "../components/Footer.astro";
+
+import Twitter from "twitter-lite";
+
+// ===========================
+
+let title = "Pocketwatch Games";
+let description = "The perfect starter for your perfect blog.";
+
+// const unsortedPosts = await Astro.glob("./posts/*.md");
+// const posts = unsortedPosts.sort(function (a, b) {
+// 	return (
+// 		new Date(b.frontmatter.publishDate).valueOf() - new Date(a.frontmatter.publishDate).valueOf()
+// 	);
+// }).slice(0, 3);
+
+// TODO: Delete once we port Tumblr posts into Astro
+const tempPosts = [
+	{
+		url: "https://blog.pocketwatchgames.com/post/678921945146916864/monaco-2-now-in-development",
+		frontmatter: {
+			title: "Monaco 2: Now in Development",
+			publishDate: "2022-03-16",
+			description: ""
+		}
+	},
+	{
+		url: "https://blog.pocketwatchgames.com/post/676927121774526464/old-school-fan-scott-redig-becomes-pocketwatchs",
+		frontmatter: {
+			title: "Old-school fan Scott Redig becomes Pocketwatch’s newest Engineer",
+			publishDate: "2022-02-22",
+			description: ""
+		}
+	},
+	{
+		url: "https://blog.pocketwatchgames.com/post/675649729916469248/pocketwatchs-new-art-director-lee-dotson",
+		frontmatter: {
+			title: "Pocketwatch’s New Art Director - Lee Dotson",
+			publishDate: "2022-02-08",
+			description: ""
+		}
+	},
+	{
+		url: "https://blog.pocketwatchgames.com/post/671116356250435584/patch-1810-slow-or-sudden-death-during-the",
+		frontmatter: {
+			title: "Patch 1.8.1.0: Slow or Sudden Death",
+			publishDate: "2021-12-20",
+			description: ""
+		}
+	}
+]
+
+/* ===== Twitter Junk ===== */
+
+const client = new Twitter({
+	consumer_key: import.meta.env.PUBLIC_KEY,
+	consumer_secret: import.meta.env.PUBLIC_SECRET,
+	bearer_token: import.meta.env.PUBLIC_TOKEN
+});
+
+const andyTweets = client.get("statuses/user_timeline", {
+	screen_name: 'andyschatz',
+	count: 2
+});
+
+const pwgTweets = client.get("statuses/user_timeline", {
+	screen_name: 'pocketwatchg',
+	count: 2
+});
+
+const tweets = await Promise.all([andyTweets, pwgTweets]);
+const allTweets = tweets.flat();
+const finalTweets = [...allTweets].sort((a, b) => {
+	return b.id - a.id
+}).slice(0, 2);
+---
+
+<html lang="en">
+	<head>
+		<BaseHead title={title} description={description} />
+	</head>
+
+	<body>
+		<Header />
+
+		<Hero />
+
+		<div class="wrapper">
+			<main class="content">
+				<section class="we">
+					<h2>We're Pocketwatch Games</h2>
+					<p>Pocketwatch Games is in the sweet spot between 'Indie' and 'AAA.' We're small enough to take risks and be weird, but big enough that we can make <a href="#">thrilling entertainment</a> that wins awards.</p>
+					<a class="btn" href="#">Tell Me More</a>
+				</section>
+
+				<section class="news" aria-label="Blog post list">
+					<header>
+						<h2>Latest News</h2>
+						<a href="#" class="invert btn">All News</a>
+					</header>
+
+					<div class="posts">
+						{tempPosts.map(({ url, frontmatter }) => (
+							<BlogPostPreview
+								title={frontmatter.title}
+								description={frontmatter.description}
+								publishDate={frontmatter.publishDate}
+								url={url}
+							/>
+						))}
+					</div>
+				</section>
+
+				<section class="media">
+					<h2>Stream</h2>
+
+					<aside class="stream">
+            <div class="stream-video"></div>
+					</aside>
+
+					<aside class="tweets">
+						{finalTweets.map((tweet) => (
+							<Tweet tweet={tweet} />
+						))}
+					</aside>
+				</section>
+			</main>
+		</div>
+
+		<Footer />
+	</body>
+</html>
+
+<style>
+	section {
+		position: relative;
+	}
+
+	.we {
+		background: url("/assets/we-are-pwg.webp") no-repeat;
+		background-position: right center;
+		margin-bottom: 40px;
+		padding: 125px 0;
+	}
+
+	.we p {
+		width: 50%;
+	}
+
+	.news header a {
+		position: absolute;
+		top: 0; right: 0;
+	}
+
+	.news .posts {
+		display: grid;
+		gap: 30px;
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.media {
+		display: grid;
+		grid-template-columns: 60% 40%;
+		grid-template-rows: auto 1fr;
+		grid-template-areas: 
+			"header header"
+			"stream tweets";
+		margin-bottom: 120px;
+	}
+
+	.media h2 {
+		grid-area: header;
+	}
+
+	.media .stream {
+    grid-area: stream;
+    padding-right: 5vw;
+		width: 100%;
+	}
+  
+  .stream-video {
+    aspect-ratio: 16 / 9;
+    border: 1px solid var(--color-white);
+    border-radius: 8px;
+  }
+
+	.media .tweets {
+		grid-area: tweets;
+	}
+</style>

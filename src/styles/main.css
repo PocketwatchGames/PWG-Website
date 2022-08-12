@@ -1,0 +1,34 @@
+@font-face {
+  font-family: Gilam;
+  src: url(/assets/Gilam-HeavyItalic.woff2);
+  font-weight: bold;
+  font-style: italic;
+}
+
+.btn {
+  background: var(--color-magenta);
+  color: white;
+  font-style: normal;
+  font-size: 0.9em;
+  font-weight: bold;
+  padding: 7px 15px;
+  text-transform: uppercase;
+}
+
+.btn:not(.invert):hover {
+  background: var(--color-navy-light);
+  box-shadow: inset 0 -5px 0 0 var(--color-magenta);
+  outline: 1px solid white;
+  text-decoration: none;
+}
+
+.btn.invert {
+  background: var(--color-navy-light);
+  color: var(--color-magenta);
+}
+
+.btn.invert:hover {
+  box-shadow: inset 0 -5px 0 0 white;
+  outline: 1px solid white;
+  text-decoration: none;
+}
