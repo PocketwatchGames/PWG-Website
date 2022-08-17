@@ -4,6 +4,7 @@ import Header from "../components/Header.astro";
 import Hero from "../components/Hero.astro";
 import BlogPostPreview from "../components/BlogPostPreview.astro";
 import Tweet from "../components/Tweet.astro";
+import Twitch from "../components/Twitch.astro";
 import Footer from "../components/Footer.astro";
 
 import Twitter from "twitter-lite";
@@ -121,7 +122,7 @@ const finalTweets = [...allTweets].sort((a, b) => {
 					<h2>Stream</h2>
 
 					<aside class="stream">
-						<div class="stream-video"></div>
+						<Twitch />
 					</aside>
 
 					<aside class="tweets">
@@ -200,12 +201,6 @@ const finalTweets = [...allTweets].sort((a, b) => {
 		grid-area: stream;
 		padding-right: 5vw;
 		width: 100%;
-	}
-	
-	.stream-video {
-		aspect-ratio: 16 / 9;
-		border: 1px solid var(--color-white);
-		border-radius: 8px;
 	}
 
 	.media .tweets {
