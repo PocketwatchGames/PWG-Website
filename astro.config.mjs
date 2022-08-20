@@ -6,6 +6,5 @@ import svelte from "@astrojs/svelte";
 export default defineConfig({
   integrations: [svelte()],
   output: "server",
-  site: "https://PocketwatchGames.github.io",
-  //site: "http://www.pocketwatchgames.com",
+  site: "http://www.pocketwatchgames.com",
 });
