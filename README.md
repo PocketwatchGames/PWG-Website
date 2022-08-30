@@ -1,4 +1,4 @@
-The Pocketwatch Games website.
+The official Pocketwatch Games website.
 
 ## 🚀 Project Structure
 
