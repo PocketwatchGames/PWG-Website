@@ -1,63 +1,68 @@
 <header>
-	<div class="wrapper">
+	<a href="/" class="logo-link">
 		<img
 			class="logo"
 			height="120"
 			width="120"
 			src="/assets/pwg-logo.svg"
 			alt="Pocketwatch Games"
-		>
-		<nav>
-			<ul>
-				<li><a href="#">Games</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">News</a></li>
-				<li><a href="#">Careers</a></li>
-				<li><a href="#">Contact</a></li>
-				<li class="social">
-					<a href="//www.twitch.tv/pocketwatch">
-						<img src="/assets/icon/twitch.svg" width="32" alt="Twitch">
-					</a>
-					<a href="//twitter.com/PocketwatchG/">
-						<img src="/assets/icon/twitter.svg" width="32" alt="Twitter">
-					</a>
-					<a href="//www.discord.gg/pocketwatch">
-						<img src="/assets/icon/discord.svg" width="32" alt="Discord">
-					</a>
-				</li>
-			</ul>
-		</nav>
-	</div>
+		/>
+	</a>
+
+	<ul class="link-list">
+		<li><a href="/games">Games</a></li>
+		<li><a href="/about">About</a></li>
+		<li><a href="/">News</a></li>
+		<li><a href="/careers">Careers</a></li>
+		<li><a href="/contact">Contact</a></li>
+	</ul>
+
+	<ul class="social-list">
+		<li class="social">
+			<a href="//www.twitch.tv/pocketwatch">
+				<img src="/assets/icon/twitch.svg" width="32" alt="Twitch" />
+			</a>
+			<a href="//twitter.com/PocketwatchG/">
+				<img src="/assets/icon/twitter.svg" width="32" alt="Twitter" />
+			</a>
+			<a href="//www.discord.gg/pocketwatch">
+				<img src="/assets/icon/discord.svg" width="32" alt="Discord" />
+			</a>
+		</li>
+	</ul>
 </header>
 
 <style>
-	header .wrapper, header ul {
+	header,
+	header ul {
 		display: flex;
 	}
 
-	header .wrapper {
-		align-items: center;
-		height: 140px;
-		justify-content: space-between;
-	}
-
 	header {
+		align-items: center;
 		background: var(--color-navy);
 		font-family: Gilam, var(--font-body);
+		height: 130px;
+		justify-content: space-between;
+		padding: 0 20px;
 		position: sticky;
 		top: 0;
 		width: 100%;
 		z-index: 1;
 	}
 
+	.link-list {
+		margin-right: auto;
+	}
+
 	li {
 		list-style: none;
-		margin: 0 20px;
+		margin: 0 15px;
 		text-transform: uppercase;
 	}
 
 	@media screen and (max-width: 1140px) {
-		header .wrapper {
+		header {
 			height: 80px;
 		}
 
@@ -86,7 +91,7 @@
 		text-decoration: none;
 	}
 
-	a:hover {
+	a:not(.logo-link):hover {
 		border-bottom: 3px solid var(--color-magenta);
 		text-decoration: none;
 	}
