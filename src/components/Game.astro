@@ -1,0 +1,109 @@
+---
+export interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<section class="game" data-title={title}>
+	<header>
+		<div class="wrapper">
+			<aside class="banner"></aside>
+
+			<article>
+				<h3>{title}</h3>
+				<slot />
+			</article>
+		</div>
+	</header>
+	<div class="media wrapper">
+		<h4>Images and Videos</h4>
+		<slot name="media" />
+	</div>
+</section>
+
+<style>
+	header {
+		align-items: flex-end;
+		background: #364662;
+		background-size: cover;
+		display: flex;
+		height: 500px;
+	}
+
+	[data-title="Monaco 2"] header {
+		background: url(/assets/bg-monaco2.avif) no-repeat;
+	}
+
+	[data-title="Monaco: What's Yours is Mine"] header {
+		background: url(/assets/bg-monaco1.avif) no-repeat;
+	}
+
+	[data-title="Tooth and Tail"] header {
+		background: url(/assets/bg-tnt.avif) no-repeat;
+	}
+
+	header .wrapper {
+		align-items: flex-end;
+		display: flex;
+		gap: 40px;
+	}
+
+	.banner {
+		background: url(/assets/games-block.avif) no-repeat;
+		height: 450px;
+		position: relative;
+		width: 300px;
+	}
+
+	.banner:before {
+		content: "";
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+
+	[data-title="Monaco 2"] .banner:before {
+		background: url(/assets/games-monaco2.avif) no-repeat;
+		height: 450px;
+		width: 314px;
+	}
+
+	[data-title="Monaco: What's Yours is Mine"] .banner:before {
+		aspect-ratio: 1 / 1;
+		background: url(/assets/games-monaco1.avif) no-repeat;
+		width: 370px;
+	}
+
+	[data-title="Tooth and Tail"] .banner:before {
+		background: url(/assets/games-tnt.avif) no-repeat;
+		height: 522px;
+		width: 395px;
+	}
+
+	article {
+		max-width: 40%;
+	}
+
+	.media {
+		margin-bottom: 50px;
+		padding: 10px 0;
+	}
+
+	h4 {
+		font-size: 1.5em;
+		line-height: 250%;
+		margin-bottom: 20px;
+	}
+
+	:global(.img-slider) {
+		display: grid;
+		gap: 30px;
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	:global(.img-slider img) {
+		max-width: 100%;
+	}
+</style>

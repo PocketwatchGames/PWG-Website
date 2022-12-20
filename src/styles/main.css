@@ -34,7 +34,7 @@
 }
 
 h1 {
-	background: linear-gradient(to bottom, #1b2847, #1a213a);
+	background: linear-gradient(to bottom, #1b2847, #0c1125);
 	border-top: 1px solid #888c98;
 	border-bottom: 1px solid #888c98;
 	color: var(--color-magenta);

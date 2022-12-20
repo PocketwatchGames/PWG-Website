@@ -1,0 +1,227 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Game from "../components/Game.astro";
+
+import { Image } from "@astrojs/image/components";
+import monaco1 from "../assets/screenshots/monaco_1_1.jpg";
+import monaco2 from "../assets/screenshots/monaco_1_2.jpg";
+import monaco3 from "../assets/screenshots/monaco_1_3.jpg";
+import monaco4 from "../assets/screenshots/monaco_1_4.jpg";
+
+import monaco21 from "../assets/screenshots/monaco-2-1.jpg";
+import monaco22 from "../assets/screenshots/monaco-2-2.jpg";
+import monaco23 from "../assets/screenshots/monaco-2-video-1.jpg";
+import monaco24 from "../assets/screenshots/monaco-2-video-2.jpg";
+
+import tnt1 from "../assets/screenshots/toothtail_1.jpg";
+import tnt2 from "../assets/screenshots/toothtail_2.jpg";
+import tnt3 from "../assets/screenshots/toothtail_3.jpg";
+import tnt4 from "../assets/screenshots/toothtail_4.jpg";
+
+let title = "Pocketwatch Games | Games";
+let description = "Pog.";
+---
+
+<html lang="en">
+	<head>
+		<BaseHead title={title} description={description} />
+	</head>
+
+	<body>
+		<Header />
+
+		<h1>
+			<div class="wrapper">Games</div>
+		</h1>
+
+		<Game title="Monaco 2">
+			<p>
+				For the past year we've been working with Humble Games on the next
+				evolution of our co-op crime caper and while we're still very early,
+				we're ready to tell you all about it. Come watch us on Twitch, say hi on
+				Discord, or comment on our Youtube Devlog to join in with our open
+				development!
+			</p>
+			<section class="img-slider" slot="media">
+				<a class="glightbox" href="../assets/screenshots/monaco-2-1.jpg">
+					<Image
+						src={monaco21}
+						alt="Monaco 2 Screenshot"
+						format="avif"
+						width={300}
+					/>
+				</a>
+
+				<Image
+					src={monaco22}
+					alt="Monaco 2 Screenshot"
+					format="avif"
+					width={300}
+				/>
+
+				<Image
+					src={monaco23}
+					alt="Monaco 2 Screenshot"
+					format="avif"
+					width={300}
+				/>
+
+				<Image
+					src={monaco24}
+					alt="Monaco 2 Screenshot"
+					format="avif"
+					width={300}
+				/>
+			</section>
+		</Game>
+
+		<Game title="Tooth and Tail">
+			<p>
+				Lead the revolution with an army of flamethrowing Boars, mustard
+				gas-lobbing Skunks, and paratrooper puking Owls. Tooth and Tail is a
+				Real-Time-Strategy game featuring Single Player, Online Competitive
+				Play, Split Screen, Replays, and more.
+			</p>
+			<p>Build a base, lead your army, eat your enemies!</p>
+			<section class="img-slider" slot="media">
+				<Image
+					src={tnt1}
+					alt="Tooth and Tail Screenshot"
+					format="avif"
+					width={300}
+				/>
+
+				<Image
+					src={tnt2}
+					alt="Tooth and Tail Screenshot"
+					format="avif"
+					width={300}
+				/>
+
+				<Image
+					src={tnt3}
+					alt="Tooth and Tail Screenshot"
+					format="avif"
+					width={300}
+				/>
+
+				<Image
+					src={tnt4}
+					alt="Tooth and Tail Screenshot"
+					format="avif"
+					width={300}
+				/>
+			</section>
+		</Game>
+
+		<Game title="Monaco: What's Yours is Mine">
+			<p>
+				Monaco: What's Yours is Mine is the award-winning single player or co-op
+				heist game. Assemble a crack team of thieves, case the join, and pull
+				off the perfect heist.
+			</p>
+			<p>
+				Find out why it won the 2010 IGF and has been described by PCGamer as
+				"one of the best co-op games of all time."
+			</p>
+
+			<section class="img-slider" slot="media">
+				<Image
+					src={monaco1}
+					alt="Monaco 1 Screenshot"
+					format="avif"
+					width={300}
+				/>
+
+				<Image
+					src={monaco2}
+					alt="Monaco 1 Screenshot"
+					format="avif"
+					width={300}
+				/>
+
+				<Image
+					src={monaco3}
+					alt="Monaco 1 Screenshot"
+					format="avif"
+					width={300}
+				/>
+
+				<Image
+					src={monaco4}
+					alt="Monaco 1 Screenshot"
+					format="avif"
+					width={300}
+				/>
+			</section>
+		</Game>
+
+		<div class="wrapper">
+			<h2>Other Games</h2>
+
+			<section class="old-game">
+				<h3>Monte Carlo</h3>
+				<p>
+					Monte Carlo is the original 15-week prototype that won the Grand Prize
+					in the 2010 IGF. Seven complete missions, an early draft of the epic
+					story, and four playable characters, all available for free! Monte
+					Carlo requires .NET and the XNA 4.0 redistributable to play.
+				</p>
+				<p>
+					<a
+						href="http://www.mediafire.com/download/cadx1c16qd8o797/MonteCarlo.zip"
+						class="btn">Download</a
+					>
+				</p>
+			</section>
+
+			<section class="old-game">
+				<h3>Venture Africa</h3>
+				<p>
+					Explore the Serengeti in Wildlife Tycoon: Venture Africa as Dr.
+					William Willoughby, the poetic ecologist. Build and balance ecosystems
+					of predators and prey by planting vegetation big and small, which feed
+					animals as small as the tiny spring hare and as large as the African
+					elephant! Make sure you don't add too many lions and crocodiles, or
+					they may over-hunt the herds of zebras and wildebeests, or add flocks
+					of vultures and packs of hyenas to fill in the gaps of your ecosystem.
+				</p>
+				<p>
+					<a
+						href="http://store.steampowered.com/app/795220/Wildlife_Tycoon_Venture_Africa/"
+					>
+						<img src="/assets/icon/steam.svg" width="40" alt="Steam" />
+					</a>
+				</p>
+			</section>
+
+			<section class="old-game">
+				<h3>Venture Arctic</h3>
+				<p>
+					Venture Arctic reinvents the sim genre and challenges the player to
+					act as Mother Nature, with both terrible and beautiful powers.
+				</p>
+			</section>
+			<p>
+				<a href="http://store.steampowered.com/app/795230/Venture_Arctic/">
+					<img src="/assets/icon/steam.svg" width="40" alt="Steam" />
+				</a>
+			</p>
+		</div>
+		<style>
+			.old-game {
+				border-bottom: 1px solid #83858e;
+				margin-bottom: 20px;
+			}
+
+			.old-game h3 {
+				color: var(--color-magenta);
+			}
+
+			.old-game p {
+				width: 80%;
+			}
+		</style>
+	</body>
+</html>
