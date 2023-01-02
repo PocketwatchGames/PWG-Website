@@ -1,6 +1,7 @@
 ---
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
 import Game from "../components/Game.astro";
 
 import { Image } from "@astrojs/image/components";
@@ -237,13 +238,15 @@ let description = "Pog.";
 					Venture Arctic reinvents the sim genre and challenges the player to
 					act as Mother Nature, with both terrible and beautiful powers.
 				</p>
+				<p>
+					<a href="http://store.steampowered.com/app/795230/Venture_Arctic/">
+						<img src="/assets/icon/steam.svg" width="40" alt="Steam" />
+					</a>
+				</p>
 			</section>
-			<p>
-				<a href="http://store.steampowered.com/app/795230/Venture_Arctic/">
-					<img src="/assets/icon/steam.svg" width="40" alt="Steam" />
-				</a>
-			</p>
 		</div>
+
+		<Footer />
 
 		<script
 			is:inline
@@ -265,6 +268,11 @@ let description = "Pog.";
 
 			.old-game p {
 				width: 80%;
+			}
+
+			.old-game:last-of-type {
+				border-bottom: 0;
+				margin-bottom: 100px;
 			}
 		</style>
 	</body>
