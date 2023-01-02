@@ -1,0 +1,151 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+
+let title = "Pocketwatch Games | About Us";
+let description = "Pog.";
+
+const teams = [
+	{
+		name: "Andy Schatz",
+		title: "Lead Designer, Founder",
+		desc: "Andy is cool.",
+	},
+	{
+		name: "Joseph Riedel",
+		title: "Lead Developer",
+		desc: "Joe is cool.",
+	},
+	{
+		name: "Lee Dotson",
+		title: "Art Director",
+		desc: "Art is cool.",
+	},
+	{
+		name: "Megan",
+		title: "Art Director",
+		desc: "Art is cool.",
+	},
+	{
+		name: "Sasha",
+		title: "Art Director",
+		desc: "Art is cool.",
+	},
+	{
+		name: "Mike",
+		title: "Art Director",
+		desc: "Art is cool.",
+	},
+	{
+		name: "Scott",
+		title: "Developer",
+		desc: "Lare is cool.",
+	},
+];
+---
+
+<html lang="en">
+	<head>
+		<BaseHead title={title} description={description} />
+	</head>
+
+	<body>
+		<Header />
+
+		<h1>
+			<div class="wrapper">About Us</div>
+		</h1>
+
+		<section class="about wrapper">
+			<main>
+				<h2>We're Pocketwatch Games</h2>
+				<p>
+					Pocketwatch Games was founded in 2005 by Andy Schatz. Andy is the lead
+					designer, writer, and producer for the company, and he writes quite a
+					bit of game code too.
+				</p>
+				<p>
+					CTO Joseph Riedel joined Pocketwatch to build our proprietary engine,
+					'Daedalus', for our upcoming untitled project. Joseph was previously
+					instrumental in building the Disney+ streaming platform and survival
+					game '7 days to Die'.
+				</p>
+				<p>
+					Pocketwatch's debut titles were the IGF Grand Prize nominated
+					ecosystem-sim game Wildlife Tycoon: Venture Africa and the subsequent
+					game Venture Arctic.
+				</p>
+				<p>
+					2010 was the company's breakout year when the indie co-op heist game
+					Monaco: What's Yours Is Mine won the Grand Prize and Excellence in
+					Design in the Independent Games Festival, and going on to sell close
+					to 2 million copies on PC, Mac, Linux, Xbox, and Switch.
+				</p>
+				<p>
+					In 2017, Pocketwatch released Tooth and Tail, an Arcade-Style Real
+					Time Strategy game set in a world of animal revolution. Tooth and Tail
+					was nominated for numerous awards, including the 2018 IGF award for
+					Excellence in Narrative, and still maintains an active community of
+					enthusiasts and modders.
+				</p>
+				<p>
+					Pocketwatch is currently working on an untitled project, and streaming
+					development live on Twitch Tuesday-Friday from 11AM-4PM PT.
+				</p>
+			</main>
+			<article class="presskit">
+				<h4>Press Kit</h4>
+				<p>Marketing assets including our logo, screenshots, and artwork.</p>
+				<a href="#" class="btn">Download</a>
+			</article>
+		</section>
+
+		<section class="team wrapper">
+			<h3>The Team</h3>
+			<div class="team-grid">
+				{
+					teams.map(({ name, title, desc }) => (
+						<article>
+							<h4>{name}</h4>
+							<small>{title}</small>
+							<p>{desc}</p>
+						</article>
+					))
+				}
+			</div>
+		</section>
+
+		<Footer />
+
+		<style>
+			.about {
+				display: grid;
+				gap: 50px;
+				grid-template-columns: auto 340px;
+				padding: 50px 0;
+			}
+
+			.presskit {
+				align-self: flex-start;
+			}
+
+			article {
+				background: #131930;
+				border: 1px solid #898c98;
+				padding: 20px;
+			}
+
+			.team-grid {
+				display: grid;
+				gap: 50px;
+				grid-template-columns: repeat(3, 1fr);
+				margin-bottom: 100px;
+			}
+
+			article h4 {
+				color: var(--color-magenta);
+			}
+		</style>
+	</body>
+</html>
