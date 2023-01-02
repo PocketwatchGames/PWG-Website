@@ -4,6 +4,7 @@ import Header from "../components/Header.astro";
 import Game from "../components/Game.astro";
 
 import { Image } from "@astrojs/image/components";
+
 import monaco1 from "../assets/screenshots/monaco_1_1.jpg";
 import monaco2 from "../assets/screenshots/monaco_1_2.jpg";
 import monaco3 from "../assets/screenshots/monaco_1_3.jpg";
@@ -26,6 +27,10 @@ let description = "Pog.";
 <html lang="en">
 	<head>
 		<BaseHead title={title} description={description} />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"
+		/>
 	</head>
 
 	<body>
@@ -44,7 +49,7 @@ let description = "Pog.";
 				development!
 			</p>
 			<section class="img-slider" slot="media">
-				<a class="glightbox" href="../assets/screenshots/monaco-2-1.jpg">
+				<a class="glightbox" href={monaco21.src}>
 					<Image
 						src={monaco21}
 						alt="Monaco 2 Screenshot"
@@ -53,26 +58,32 @@ let description = "Pog.";
 					/>
 				</a>
 
-				<Image
-					src={monaco22}
-					alt="Monaco 2 Screenshot"
-					format="avif"
-					width={300}
-				/>
+				<a class="glightbox" href={monaco22.src}>
+					<Image
+						src={monaco22}
+						alt="Monaco 2 Screenshot"
+						format="avif"
+						width={300}
+					/>
+				</a>
 
-				<Image
-					src={monaco23}
-					alt="Monaco 2 Screenshot"
-					format="avif"
-					width={300}
-				/>
+				<a class="glightbox" href="https://www.youtube.com/watch?v=_RUzZ69hoiY">
+					<Image
+						src={monaco23}
+						alt="Monaco 2 Devlog"
+						format="avif"
+						width={300}
+					/>
+				</a>
 
-				<Image
-					src={monaco24}
-					alt="Monaco 2 Screenshot"
-					format="avif"
-					width={300}
-				/>
+				<a class="glightbox" href="https://www.youtube.com/watch?v=_RUzZ69hoiY">
+					<Image
+						src={monaco24}
+						alt="Monaco 2 Devlog"
+						format="avif"
+						width={300}
+					/>
+				</a>
 			</section>
 		</Game>
 
@@ -209,6 +220,15 @@ let description = "Pog.";
 				</a>
 			</p>
 		</div>
+
+		<script
+			is:inline
+			src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"
+		></script>
+		<script>
+			const lightbox = GLightbox({});
+		</script>
+
 		<style>
 			.old-game {
 				border-bottom: 1px solid #83858e;
