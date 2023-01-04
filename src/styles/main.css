@@ -1,5 +1,11 @@
 @font-face {
 	font-family: Gilam;
+	src: url(/assets/Gilam-Heavy.woff2);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: Gilam;
 	src: url(/assets/Gilam-HeavyItalic.woff2);
 	font-weight: bold;
 	font-style: italic;

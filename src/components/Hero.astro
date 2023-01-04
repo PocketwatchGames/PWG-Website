@@ -94,6 +94,25 @@
 		width: 50%;
 	}
 
+	@media screen and (max-width: 1024px) {
+		.hero {
+			flex-direction: column;
+		}
+
+		.hero > :is(.game) {
+			background-position: right 70%;
+			width: 100% !important;
+		}
+
+		.game:last-child {
+			background-position: right 40%;
+		}
+
+		.game footer {
+			padding: 10px 30px;
+		}
+	}
+
 	.game h2 {
 		font-style: italic;
 		font-weight: bold;

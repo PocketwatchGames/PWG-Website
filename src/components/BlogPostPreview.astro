@@ -24,6 +24,11 @@ const { title, description, publishDate, url } = Astro.props as Props;
 		height: 200px;
 		margin-bottom: 40px;
 		position: relative;
+		overflow: hidden;
+	}
+
+	.post-preview:not(:hover) footer {
+		transform: translateY(10%);
 	}
 
 	footer {
@@ -31,7 +36,9 @@ const { title, description, publishDate, url } = Astro.props as Props;
 		border-radius: 20px 0 0 0;
 		padding: 15px;
 		position: absolute;
-		bottom: 0; left: 0;
+		bottom: 0;
+		left: 0;
+		transition: transform 0.3s;
 		width: 100%;
 	}
 
@@ -51,13 +58,13 @@ const { title, description, publishDate, url } = Astro.props as Props;
 
 	time:after {
 		border-bottom: 1px solid currentColor;
-		content: '';
+		content: "";
 		flex-grow: 1;
 	}
 
 	.title {
 		font-family: Gilam, sans-serif;
-		font-size: 18px;
+		font-size: 17px;
 		color: var(--color-white);
 		text-transform: uppercase;
 	}
