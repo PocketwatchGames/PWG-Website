@@ -1,3 +1,11 @@
+---
+export interface Props {
+	active?: string;
+}
+
+const { active } = Astro.props;
+---
+
 <header>
 	<a href="/" class="logo-link">
 		<img
@@ -10,11 +18,26 @@
 	</a>
 
 	<ul class="link-list">
-		<li><a href="/games">Games</a></li>
-		<li><a href="/about">About</a></li>
-		<li><a href="//blog.pocketwatchgames.com">News</a></li>
-		<li><a href="/careers">Careers</a></li>
-		<li><a href="/contact">Contact</a></li>
+		<li>
+			<a class={active === "games" ? "active" : ""} href="/games">Games</a>
+		</li>
+		<li>
+			<a class={active === "about" ? "active" : ""} href="/about">About</a>
+		</li>
+		<li>
+			<a
+				class={active === "news" ? "active" : ""}
+				href="//blog.pocketwatchgames.com">News</a
+			>
+		</li>
+		<li>
+			<a class={active === "careers" ? "active" : ""} href="/careers">Careers</a
+			>
+		</li>
+		<li>
+			<a class={active === "contact" ? "active" : ""} href="/contact">Contact</a
+			>
+		</li>
 	</ul>
 
 	<ul class="social-list">
@@ -42,6 +65,7 @@
 		align-items: center;
 		background: var(--color-navy);
 		font-family: Gilam, var(--font-body);
+		font-style: italic;
 		height: 130px;
 		justify-content: space-between;
 		padding: 0 20px;
@@ -101,7 +125,8 @@
 		text-decoration: none;
 	}
 
-	a:not(.logo-link):hover {
+	a:not(.logo-link):hover,
+	a.active {
 		border-bottom: 3px solid var(--color-magenta);
 		text-decoration: none;
 	}
