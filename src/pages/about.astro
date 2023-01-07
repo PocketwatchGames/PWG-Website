@@ -11,36 +11,43 @@ const teams = [
 		name: "Andy Schatz",
 		title: "Lead Designer, Founder",
 		desc: "Andy is cool.",
+		avatar: "https://picsum.photos/160",
 	},
 	{
 		name: "Joseph Riedel",
 		title: "Lead Developer",
 		desc: "Joe is cool.",
+		avatar: "https://picsum.photos/160",
 	},
 	{
 		name: "Lee Dotson",
 		title: "Art Director",
 		desc: "Art is cool.",
+		avatar: "https://picsum.photos/160",
 	},
 	{
 		name: "Megan",
 		title: "Art Director",
 		desc: "Art is cool.",
+		avatar: "https://picsum.photos/160",
 	},
 	{
 		name: "Sasha",
 		title: "Art Director",
 		desc: "Art is cool.",
+		avatar: "https://picsum.photos/160",
 	},
 	{
 		name: "Mike",
 		title: "Art Director",
 		desc: "Art is cool.",
+		avatar: "https://picsum.photos/160",
 	},
 	{
 		name: "Scott",
 		title: "Developer",
 		desc: "Lare is cool.",
+		avatar: "https://picsum.photos/160",
 	},
 ];
 ---
@@ -90,8 +97,8 @@ const teams = [
 					enthusiasts and modders.
 				</p>
 				<p>
-					Pocketwatch is currently working on an untitled project, and streaming
-					development live on Twitch Tuesday-Friday from 11AM-4PM PT.
+					Pocketwatch is currently working on Monaco 2 and streaming development
+					live on Twitch Tuesday-Friday from 11AM-4PM PT.
 				</p>
 			</main>
 			<article class="presskit">
@@ -105,10 +112,14 @@ const teams = [
 			<h3>The Team</h3>
 			<div class="team-grid">
 				{
-					teams.map(({ name, title, desc }) => (
+					teams.map(({ name, title, desc, avatar }) => (
 						<article>
-							<h4>{name}</h4>
-							<small>{title}</small>
+							<header>
+								<img src={avatar} alt="Avatar" />
+								<h4>{name}</h4>
+								<small>{title}</small>
+							</header>
+
 							<p>{desc}</p>
 						</article>
 					))
@@ -130,12 +141,6 @@ const teams = [
 				align-self: flex-start;
 			}
 
-			article {
-				background: #131930;
-				border: 1px solid #898c98;
-				padding: 20px;
-			}
-
 			.team-grid {
 				display: grid;
 				gap: 50px;
@@ -143,8 +148,35 @@ const teams = [
 				margin-bottom: 100px;
 			}
 
+			article {
+				background: var(--color-navy-light);
+				border: 1px solid #898c98;
+				padding: 20px;
+				position: relative;
+			}
+
+			article header {
+				color: white;
+				padding-left: 120px;
+				margin-bottom: 70px;
+			}
+
 			article h4 {
 				color: var(--color-magenta);
+				font-style: 24px;
+			}
+
+			article small {
+				font-size: 15px;
+			}
+
+			article img {
+				aspect-ratio: 1 / 1;
+				border-radius: 100%;
+				position: absolute;
+				top: -25px;
+				left: -25px;
+				width: 150px;
 			}
 		</style>
 	</body>

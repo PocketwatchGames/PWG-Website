@@ -19,10 +19,76 @@ let description = "Pog.";
 		</h1>
 
 		<div class="contact wrapper">
-			<h2>Get In Touch</h2>
-			<p>Email us at support@pocketwatchgames.com</p>
+			<main>
+				<h2>Get In Touch</h2>
+				<form action="https://formspree.io/tehstealth@yahoo.com" method="POST">
+					<label for="topic">Topic</label>
+					<input type="text" id="topic" name="_subject" required />
+					<label for="name">Name</label>
+					<input type="text" id="name" name="user_name" required />
+					<label for="mail">Email Address</label>
+					<input type="email" id="mail" name="user_mail" required />
+					<label for="msg">Message</label>
+					<textarea id="msg" name="user_message" required></textarea>
+					<button class="btn" type="submit">Send message</button>
+					<!-- <input type="hidden" name="_next" value="/thank-you" /> -->
+					<!-- <input type="hidden" name="_cc" value="another-email@email.com" /> -->
+				</form>
+			</main>
+			<article class="presskit">
+				<h4>Press Kit</h4>
+				<p>Marketing assets including our logo, screenshots, and artwork.</p>
+				<a href="#" class="btn">Download</a>
+			</article>
 		</div>
 		<style>
+			label {
+				color: var(--color-magenta);
+				display: block;
+				font-family: Gilam, sans-serif;
+				font-size: 28px;
+				text-transform: uppercase;
+			}
+
+			input,
+			textarea {
+				background: var(--color-navy-light);
+				border: 1px solid #898c98;
+				color: white;
+				font-family: Calibri, Arial, sans-serif;
+				font-size: 20px;
+				font-weight: normal;
+				height: 45px;
+				margin-bottom: 20px;
+				padding: 0 15px;
+				resize: none;
+				width: 50%;
+			}
+
+			textarea {
+				height: 200px;
+				width: 100%;
+			}
+
+			.contact {
+				display: grid;
+				gap: 50px;
+				grid-template-columns: auto 340px;
+				padding: 50px 0;
+			}
+
+			.presskit {
+				align-self: flex-start;
+				background: var(--color-navy-light);
+				border: 1px solid #898c98;
+				padding: 20px;
+			}
+
+			.presskit h4 {
+				color: var(--color-magenta);
+				font-style: 24px;
+			}
+
 			.contact {
 				padding: 50px 0;
 			}
