@@ -9,45 +9,45 @@ let description = "Pog.";
 const teams = [
 	{
 		name: "Andy Schatz",
-		title: "Lead Designer, Founder",
-		desc: "Andy is cool.",
-		avatar: "https://picsum.photos/160",
+		title: "CEO, Creative Director",
+		desc: "Programmer whose distant past includes games such as Whacked! and Goldeneye: Rogue Agent.",
+		avatar: null,
 	},
 	{
 		name: "Joseph Riedel",
-		title: "Lead Developer",
-		desc: "Joe is cool.",
-		avatar: "https://picsum.photos/160",
+		title: "CTO/Programmer",
+		desc: "Ex-Disney, previously worked on 7 Days to Die, Deadhold, Crow, Area 51 Blacksite, Turok, Tony Hawk Pro Skater, Myth III, Dragons Lair 3D.",
+		avatar: null,
 	},
 	{
 		name: "Lee Dotson",
 		title: "Art Director",
-		desc: "Art is cool.",
-		avatar: "https://picsum.photos/160",
+		desc: null,
+		avatar: null,
 	},
 	{
-		name: "Megan",
+		name: "Megan Auher",
+		title: "Sr Environment Artist",
+		desc: null,
+		avatar: null,
+	},
+	{
+		name: "Sasha Riddle",
+		title: "Environment and Motion Graphics Artist",
+		desc: null,
+		avatar: null,
+	},
+	{
+		name: "Mike Steele",
 		title: "Art Director",
-		desc: "Art is cool.",
-		avatar: "https://picsum.photos/160",
+		desc: "3D character artist with past credits on Call of Duty: Advanced Warfare, The Mage's Tale, The Bard's Tale IV, and Google Stadia",
+		avatar: null,
 	},
 	{
-		name: "Sasha",
-		title: "Art Director",
-		desc: "Art is cool.",
-		avatar: "https://picsum.photos/160",
-	},
-	{
-		name: "Mike",
-		title: "Art Director",
-		desc: "Art is cool.",
-		avatar: "https://picsum.photos/160",
-	},
-	{
-		name: "Scott",
-		title: "Developer",
-		desc: "Lare is cool.",
-		avatar: "https://picsum.photos/160",
+		name: "Scott Redig",
+		title: "Programmer",
+		desc: null,
+		avatar: null,
 	},
 ];
 ---
@@ -115,12 +115,12 @@ const teams = [
 					teams.map(({ name, title, desc, avatar }) => (
 						<article>
 							<header>
-								<img src={avatar} alt="Avatar" />
+								{avatar && <img src={avatar} alt="Avatar" />}
 								<h4>{name}</h4>
 								<small>{title}</small>
 							</header>
 
-							<p>{desc}</p>
+							{desc && <p>{desc}</p>}
 						</article>
 					))
 				}
@@ -157,8 +157,11 @@ const teams = [
 
 			article header {
 				color: white;
-				padding-left: 120px;
 				margin-bottom: 70px;
+			}
+
+			article header:has(img) {
+				padding-left: 120px;
 			}
 
 			article h4 {
