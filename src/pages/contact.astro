@@ -1,6 +1,7 @@
 ---
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
+import Presskit from "../components/Presskit.astro";
 
 let title = "Pocketwatch Games | Contact";
 let description = "Pog.";
@@ -35,11 +36,8 @@ let description = "Pog.";
 					<!-- <input type="hidden" name="_cc" value="another-email@email.com" /> -->
 				</form>
 			</main>
-			<article class="presskit">
-				<h4>Press Kit</h4>
-				<p>Marketing assets including our logo, screenshots, and artwork.</p>
-				<a href="#" class="btn">Download</a>
-			</article>
+
+			<Presskit />
 		</div>
 		<style>
 			label {

@@ -2,6 +2,7 @@
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import Presskit from "../components/Presskit.astro";
 
 let title = "Pocketwatch Games | About Us";
 let description = "Pog.";
@@ -12,18 +13,21 @@ const teams = [
 		title: "CEO, Creative Director",
 		desc: "Programmer whose distant past includes games such as Whacked! and Goldeneye: Rogue Agent.",
 		avatar: null,
+		twitter: "andyschatz",
 	},
 	{
 		name: "Joseph Riedel",
 		title: "CTO/Programmer",
 		desc: "Ex-Disney, previously worked on 7 Days to Die, Deadhold, Crow, Area 51 Blacksite, Turok, Tony Hawk Pro Skater, Myth III, Dragons Lair 3D.",
 		avatar: null,
+		twitter: "atomic_integer",
 	},
 	{
 		name: "Lee Dotson",
 		title: "Art Director",
 		desc: null,
 		avatar: null,
+		twitter: "LeexDot",
 	},
 	{
 		name: "Megan Auher",
@@ -101,18 +105,15 @@ const teams = [
 					live on Twitch Tuesday-Friday from 11AM-4PM PT.
 				</p>
 			</main>
-			<article class="presskit">
-				<h4>Press Kit</h4>
-				<p>Marketing assets including our logo, screenshots, and artwork.</p>
-				<a href="#" class="btn">Download</a>
-			</article>
+
+			<Presskit />
 		</section>
 
 		<section class="team wrapper">
 			<h3>The Team</h3>
 			<div class="team-grid">
 				{
-					teams.map(({ name, title, desc, avatar }) => (
+					teams.map(({ name, title, desc, avatar, twitter }) => (
 						<article>
 							<header>
 								{avatar && <img src={avatar} alt="Avatar" />}
@@ -121,6 +122,16 @@ const teams = [
 							</header>
 
 							{desc && <p>{desc}</p>}
+
+							<div class="social">
+								<a href={`https://twitter.com/${twitter}/`}>
+									<img
+										src="/assets/icon/twitter.svg"
+										width="28"
+										alt="Twitter"
+									/>
+								</a>
+							</div>
 						</article>
 					))
 				}
@@ -137,10 +148,6 @@ const teams = [
 				padding: 50px 0;
 			}
 
-			.presskit {
-				align-self: flex-start;
-			}
-
 			.team-grid {
 				display: grid;
 				gap: 50px;
@@ -149,9 +156,12 @@ const teams = [
 			}
 
 			article {
-				background: var(--color-navy-light);
+				background: var(--color-navy-light) url(/assets/swoop.svg) no-repeat
+					right bottom;
+				background-size: 50% auto;
 				border: 1px solid #898c98;
 				padding: 20px;
+				padding-right: 35px;
 				position: relative;
 			}
 
@@ -164,6 +174,15 @@ const teams = [
 				padding-left: 120px;
 			}
 
+			article header img {
+				aspect-ratio: 1 / 1;
+				border-radius: 100%;
+				position: absolute;
+				top: -25px;
+				left: -25px;
+				width: 150px;
+			}
+
 			article h4 {
 				color: var(--color-magenta);
 				font-style: 24px;
@@ -173,13 +192,20 @@ const teams = [
 				font-size: 15px;
 			}
 
-			article img {
-				aspect-ratio: 1 / 1;
-				border-radius: 100%;
+			.social {
 				position: absolute;
-				top: -25px;
-				left: -25px;
-				width: 150px;
+				bottom: 0;
+				right: 5px;
+				z-index: 1;
+			}
+
+			.social img {
+				filter: brightness(0);
+			}
+
+			.social a[href$="//twitter.com/undefined/"]
+			{
+				display: none;
 			}
 		</style>
 	</body>
