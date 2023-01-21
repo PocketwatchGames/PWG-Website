@@ -29,6 +29,7 @@ const tempPosts = [
 			title: "Monaco 2: Now in Development",
 			publishDate: "2022-03-16",
 			description: "",
+			thumbnail: "/assets/home-news-thumb-1.avif",
 		},
 	},
 	{
@@ -37,6 +38,7 @@ const tempPosts = [
 			title: "Old-school fan Scott Redig becomes newest Engineer",
 			publishDate: "2022-02-22",
 			description: "",
+			thumbnail: "/assets/home-news-thumb-2.avif",
 		},
 	},
 	{
@@ -45,6 +47,7 @@ const tempPosts = [
 			title: "Pocketwatch’s New Art Director - Lee Dotson",
 			publishDate: "2022-02-08",
 			description: "",
+			thumbnail: "/assets/home-news-thumb-3.avif",
 		},
 	},
 	{
@@ -53,6 +56,7 @@ const tempPosts = [
 			title: "Patch 1.8.1.0: Slow or Sudden Death",
 			publishDate: "2021-12-20",
 			description: "",
+			thumbnail: "/assets/home-news-thumb-4.avif",
 		},
 	},
 ];
@@ -101,7 +105,7 @@ const finalTweets = [...allTweets]
 					<p>
 						Pocketwatch Games is in the sweet spot between 'Indie' and 'AAA.'
 						We're small enough to take risks and be weird, but big enough that
-						we can make <a href="#">thrilling entertainment</a> that wins awards.
+						we can make <a href="/games">thrilling entertainment</a> that wins awards.
 					</p>
 					<a class="btn" href="/about">Tell Me More</a>
 				</section>
@@ -109,7 +113,8 @@ const finalTweets = [...allTweets]
 				<section class="news" aria-label="Blog post list">
 					<header>
 						<h2>Latest News</h2>
-						<a href="#" class="invert btn">All News</a>
+						<a href="//blog.pocketwatchgames.com" class="invert btn">All News</a
+						>
 					</header>
 
 					<div class="posts">
@@ -120,6 +125,7 @@ const finalTweets = [...allTweets]
 									description={frontmatter.description}
 									publishDate={frontmatter.publishDate}
 									url={url}
+									thumbnail={frontmatter.thumbnail}
 								/>
 							))
 						}

@@ -4,12 +4,14 @@ export interface Props {
 	description: string;
 	publishDate: string;
 	url: string;
+	thumbnail: string;
 }
 
-const { title, description, publishDate, url } = Astro.props as Props;
+const { title, description, publishDate, url, thumbnail } =
+	Astro.props as Props;
 ---
 
-<article class="post-preview">
+<article class="post-preview" style={`background:url(${thumbnail})`}>
 	<footer>
 		<a href={url}><h3 class="title">{title}</h3></a>
 		<time>{publishDate}</time>
