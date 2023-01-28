@@ -79,6 +79,19 @@ let description = "Contact the Pocketwatch Games team.";
 				padding: 50px 0;
 			}
 
+			@media screen and (max-width: 1024px) {
+				.contact {
+					grid-template-columns: auto;
+					grid-template-rows: 1fr auto;
+				}
+			}
+
+			@media screen and (max-width: 550px) {
+				input {
+					width: 100%;
+				}
+			}
+
 			.presskit {
 				align-self: flex-start;
 				background: var(--color-navy-light);

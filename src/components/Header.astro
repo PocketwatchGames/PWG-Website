@@ -68,6 +68,7 @@ const { active } = Astro.props;
 		font-style: italic;
 		height: 130px;
 		justify-content: space-between;
+		overflow: hidden;
 		padding: 0 20px;
 		position: sticky;
 		top: 0;
@@ -77,6 +78,16 @@ const { active } = Astro.props;
 
 	.link-list {
 		margin-right: auto;
+	}
+
+	@media screen and (max-width: 550px) {
+		header ul {
+			flex-wrap: wrap;
+		}
+
+		header li {
+			margin-bottom: 5px;
+		}
 	}
 
 	li {
