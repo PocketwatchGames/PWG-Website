@@ -1,0 +1,83 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+
+let title = "Pocketwatch Games | Careers";
+let description = "Check out the job opportunities available.";
+
+const jobs = [
+	{
+		title: "Level Designer",
+		desc: "Pocketwatch Games is looking for a Level Designer to join our fully remote team working on Monaco 2, the sequel to the acclaimed cooperative heist game, Monaco: What's Yours Is Mine.",
+		post: "https://www.linkedin.com/jobs/view/3014658920",
+	},
+	{
+		title: "Software Engineer I/II",
+		desc: "Pocketwatch Games is looking for a Software Engineer to join our fully remote team working on Monaco 2, the sequel to the acclaimed cooperative heist caper game, Monaco: What's Yours Is Mine.",
+		post: "https://www.linkedin.com/jobs/view/3419099037",
+	},
+];
+---
+
+<html lang="en">
+	<head>
+		<BaseHead title={title} description={description} />
+	</head>
+
+	<body>
+		<Header active="careers" />
+
+		<h1>
+			<div class="wrapper">Careers</div>
+		</h1>
+
+		<section class="positions wrapper">
+			<h2>Work With Us</h2>
+			<h3>Current Openings</h3>
+
+			{
+				jobs.length ? (
+					jobs.map(({ title, desc, post }) => (
+						<section class="job">
+							<h4>{title}</h4>
+							<p>{desc}</p>
+							<a href={post} class="btn">
+								Apply
+							</a>
+						</section>
+					))
+				) : (
+					<p>There are currently no open positions at Pocketwatch.</p>
+				)
+			}
+		</section>
+
+		<Footer />
+
+		<style>
+			.positions {
+				padding: 50px 0;
+			}
+
+			.positions h3 {
+				color: var(--color-magenta);
+			}
+
+			.job {
+				border-bottom: 1px solid #83858e;
+				margin-bottom: 30px;
+			}
+
+			.job:last-of-type {
+				border-bottom: 0;
+				margin-bottom: 100px;
+			}
+
+			.job a {
+				display: inline-block;
+				margin-bottom: 30px;
+			}
+		</style>
+	</body>
+</html>

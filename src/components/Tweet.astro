@@ -1,0 +1,59 @@
+---
+export interface Props {
+	tweet: Tweet;
+}
+
+export interface Tweet {
+	id_str: string,
+	text: string,
+	user: {
+		name: string,
+		screen_name: string,
+		profile_image_url_https: string
+	}
+}
+
+const { tweet } = Astro.props as Props;
+
+const { text, user, id_str } = tweet;
+
+---
+
+<article class="tweet">
+	<header>
+		<img src={user.profile_image_url_https} width="48" height="48">
+		<aside>
+			<h4 class="author">
+        <a href={`https://twitter.com/${user.screen_name}/status/${id_str}`}>{user.name}</a>
+      </h4>
+			<span class="handle">@{user.screen_name}</span>
+		</aside>
+	</header>
+
+	<p>{text}</p>
+</article>
+
+<style>
+	.tweet {
+		color: var(--color-white);
+	}
+
+	header {
+		align-items: center;
+		display: flex;
+		margin-bottom: 10px;
+	}
+
+	img {
+		border-radius: 100%;
+		margin-right: 20px;
+	}
+
+	p, span {
+		font-size: 1rem;
+	}
+
+	p {
+		padding-left: 20px;
+	}
+</style>

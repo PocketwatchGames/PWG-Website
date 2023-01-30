@@ -1,0 +1,26 @@
+---
+const parent = import.meta.env.DEV ? "localhost" : "pocketwatchgames.vercel.app";
+const src = `//player.twitch.tv/?channel=pocketwatch&parent=${parent}`;
+
+---
+
+<iframe 
+  src={src}
+  parent={parent}
+  height="720" 
+  width="1280" 
+  frameborder="0" 
+  scrolling="no" 
+  allowfullscreen="true" 
+/>
+
+<style>
+  iframe {
+    aspect-ratio: 16 / 9;
+    border: 1px solid var(--color-white);
+		border-radius: 8px;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+  }
+</style>

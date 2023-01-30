@@ -1,0 +1,144 @@
+---
+export interface Props {
+	active?: string;
+}
+
+const { active } = Astro.props;
+---
+
+<header>
+	<a href="/" class="logo-link">
+		<img
+			class="logo"
+			height="120"
+			width="120"
+			src="/assets/pwg-logo.svg"
+			alt="Pocketwatch Games"
+		/>
+	</a>
+
+	<ul class="link-list">
+		<li>
+			<a class={active === "games" ? "active" : ""} href="/games">Games</a>
+		</li>
+		<li>
+			<a class={active === "about" ? "active" : ""} href="/about">About</a>
+		</li>
+		<li>
+			<a
+				class={active === "news" ? "active" : ""}
+				href="//blog.pocketwatchgames.com">News</a
+			>
+		</li>
+		<li>
+			<a class={active === "careers" ? "active" : ""} href="/careers">Careers</a
+			>
+		</li>
+		<li>
+			<a class={active === "contact" ? "active" : ""} href="/contact">Contact</a
+			>
+		</li>
+	</ul>
+
+	<ul class="social-list">
+		<li class="social">
+			<a href="//www.twitch.tv/pocketwatch">
+				<img src="/assets/icon/twitch.svg" width="32" alt="Twitch" />
+			</a>
+			<a href="//twitter.com/PocketwatchG/">
+				<img src="/assets/icon/twitter.svg" width="32" alt="Twitter" />
+			</a>
+			<a href="//www.discord.gg/pocketwatch">
+				<img src="/assets/icon/discord.svg" width="32" alt="Discord" />
+			</a>
+		</li>
+	</ul>
+</header>
+
+<style>
+	header,
+	header ul {
+		display: flex;
+	}
+
+	header {
+		align-items: center;
+		background: var(--color-navy);
+		font-family: Gilam, var(--font-body);
+		font-style: italic;
+		height: 130px;
+		justify-content: space-between;
+		overflow: hidden;
+		padding: 0 20px;
+		position: sticky;
+		top: 0;
+		width: 100%;
+		z-index: 1;
+	}
+
+	.link-list {
+		margin-right: auto;
+	}
+
+	@media screen and (max-width: 550px) {
+		header ul {
+			flex-wrap: wrap;
+		}
+
+		header li {
+			margin-bottom: 5px;
+		}
+	}
+
+	li {
+		list-style: none;
+		margin: 0 15px;
+		text-transform: uppercase;
+	}
+
+	@media screen and (max-width: 1140px) {
+		header {
+			height: 80px;
+		}
+
+		.logo {
+			height: 60px;
+			width: 60px;
+		}
+
+		.link-list {
+			margin-right: 0;
+			padding-left: 0;
+		}
+
+		.social-list {
+			display: none;
+		}
+
+		li {
+			margin: 0 10px;
+		}
+
+		li a {
+			font-size: 0.9em;
+		}
+
+		.social {
+			display: none;
+		}
+	}
+
+	a {
+		color: var(--color-gray-300);
+		font-size: 1.5rem;
+		margin: 0 10px;
+		padding: 10px 0;
+		text-decoration: none;
+	}
+
+	a:not(.logo-link):hover,
+	a.active {
+		border-bottom: 3px solid var(--color-magenta);
+		text-decoration: none;
+	}
+</style>

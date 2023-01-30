@@ -1,0 +1,59 @@
+@font-face {
+	font-family: Gilam;
+	src: url(/assets/Gilam-Heavy.woff2);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: Gilam;
+	src: url(/assets/Gilam-HeavyItalic.woff2);
+	font-weight: bold;
+	font-style: italic;
+}
+
+.btn {
+	background: var(--color-magenta);
+	border: 0 none;
+	color: white;
+	font-family: inherit;
+	font-style: normal;
+	font-size: 0.9em;
+	font-weight: bold;
+	padding: 7px 15px;
+	text-transform: uppercase;
+}
+
+.btn:not(.invert):hover {
+	background: var(--color-navy-light);
+	box-shadow: inset 0 -5px 0 0 var(--color-magenta);
+	outline: 1px solid white;
+	text-decoration: none;
+}
+
+.btn.invert {
+	background: var(--color-navy-light);
+	color: var(--color-magenta);
+}
+
+.btn.invert:hover {
+	box-shadow: inset 0 -5px 0 0 white;
+	outline: 1px solid white;
+	text-decoration: none;
+}
+
+h1 {
+	background: linear-gradient(to bottom, #1b2847, #0c1125);
+	border-top: 1px solid #888c98;
+	border-bottom: 1px solid #888c98;
+	color: var(--color-magenta);
+	font-size: 36px;
+	line-height: 130px;
+	text-indent: -5ch;
+	text-transform: uppercase;
+}
+
+@media screen and (max-width: 1440px) {
+	h1 {
+		text-indent: 0;
+	}
+}

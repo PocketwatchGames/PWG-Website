@@ -1,0 +1,80 @@
+---
+export interface Props {
+	title: string;
+	description: string;
+	publishDate: string;
+	url: string;
+	thumbnail: string;
+}
+
+const { title, description, publishDate, url, thumbnail } =
+	Astro.props as Props;
+---
+
+<article class="post-preview" style={`background:url(${thumbnail})`}>
+	<footer>
+		<a href={url}><h3 class="title">{title}</h3></a>
+		<time>{publishDate}</time>
+	</footer>
+	<!-- <p>{description}</p> -->
+	<a class="link-block" href={url}></a>
+</article>
+
+<style>
+	.post-preview {
+		background: var(--color-white);
+		background-size: cover !important;
+		height: 200px;
+		margin-bottom: 40px;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.post-preview:not(:hover) footer {
+		transform: translateY(10%);
+	}
+
+	footer {
+		background: var(--color-navy-light);
+		border-radius: 20px 0 0 0;
+		padding: 15px;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		transition: transform 0.3s;
+		width: 100%;
+	}
+
+	.title,
+	time {
+		margin: 0;
+	}
+
+	time {
+		align-items: center;
+		font-size: 0.8rem;
+		font-style: italic;
+		color: var(--color-magenta);
+		display: flex;
+		gap: 15px;
+	}
+
+	time:after {
+		border-bottom: 1px solid currentColor;
+		content: "";
+		flex-grow: 1;
+	}
+
+	.title {
+		font-family: Gilam, sans-serif;
+		font-size: 17px;
+		color: var(--color-white);
+		text-transform: uppercase;
+	}
+
+	.link-block {
+		height: 100%;
+		position: absolute;
+		width: 100%;
+	}
+</style>

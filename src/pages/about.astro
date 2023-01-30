@@ -1,0 +1,225 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import Presskit from "../components/Presskit.astro";
+
+let title = "Pocketwatch Games | About Us";
+let description = "Learn more about the crew at Pocketwatch Games.";
+
+const teams = [
+	{
+		name: "Andy Schatz",
+		title: "CEO, Creative Director",
+		desc: "Programmer whose distant past includes games such as Whacked! and Goldeneye: Rogue Agent.",
+		avatar: null,
+		twitter: "andyschatz",
+	},
+	{
+		name: "Joseph Riedel",
+		title: "CTO/Programmer",
+		desc: "Ex-Disney, previously worked on 7 Days to Die, Deadhold, Crow, Area 51 Blacksite, Turok, Tony Hawk Pro Skater, Myth III, Dragons Lair 3D.",
+		avatar: null,
+		twitter: "atomic_integer",
+	},
+	{
+		name: "Lee Dotson",
+		title: "Art Director",
+		desc: null,
+		avatar: null,
+		twitter: "LeexDot",
+	},
+	{
+		name: "Meghan Auer",
+		title: "Sr Environment Artist",
+		desc: null,
+		avatar: null,
+		twitter: "powerauerart",
+	},
+	{
+		name: "Sasha Riddle",
+		title: "Environment and Motion Graphics Artist",
+		desc: null,
+		avatar: null,
+	},
+	{
+		name: "Mike Steele",
+		title: "Character and VFX Artist",
+		desc: "3D character artist with past credits on Call of Duty: Advanced Warfare, The Mage's Tale, The Bard's Tale IV, and Google Stadia",
+		avatar: null,
+	},
+	{
+		name: "Scott Redig",
+		title: "Programmer",
+		desc: null,
+		avatar: null,
+	},
+];
+---
+
+<html lang="en">
+	<head>
+		<BaseHead title={title} description={description} />
+	</head>
+
+	<body>
+		<Header active="about" />
+
+		<h1>
+			<div class="wrapper">About Us</div>
+		</h1>
+
+		<section class="about wrapper">
+			<main>
+				<h2>We're Pocketwatch Games</h2>
+				<p>
+					Pocketwatch Games was founded in 2005 by Andy Schatz. Andy is the lead
+					designer, writer, and producer for the company, and he writes quite a
+					bit of game code too.
+				</p>
+				<p>
+					CTO Joseph Riedel joined Pocketwatch to build our proprietary engine,
+					'Daedalus', for our upcoming untitled project. Joseph was previously
+					instrumental in building the Disney+ streaming platform and survival
+					game '7 days to Die'.
+				</p>
+				<p>
+					Pocketwatch's debut titles were the IGF Grand Prize nominated
+					ecosystem-sim game Wildlife Tycoon: Venture Africa and the subsequent
+					game Venture Arctic.
+				</p>
+				<p>
+					2010 was the company's breakout year when the indie co-op heist game
+					Monaco: What's Yours Is Mine won the Grand Prize and Excellence in
+					Design in the Independent Games Festival, and going on to sell close
+					to 2 million copies on PC, Mac, Linux, Xbox, and Switch.
+				</p>
+				<p>
+					In 2017, Pocketwatch released Tooth and Tail, an Arcade-Style Real
+					Time Strategy game set in a world of animal revolution. Tooth and Tail
+					was nominated for numerous awards, including the 2018 IGF award for
+					Excellence in Narrative, and still maintains an active community of
+					enthusiasts and modders.
+				</p>
+				<p>
+					Pocketwatch is currently working on Monaco 2 and streaming development
+					live on Twitch Tuesday-Friday from 11AM-4PM PT.
+				</p>
+			</main>
+
+			<Presskit />
+		</section>
+
+		<section class="team wrapper">
+			<h3>The Team</h3>
+			<div class="team-grid">
+				{
+					teams.map(({ name, title, desc, avatar, twitter }) => (
+						<article>
+							<header>
+								{avatar && <img src={avatar} alt="Avatar" />}
+								<h4>{name}</h4>
+								<small>{title}</small>
+							</header>
+
+							{desc && <p>{desc}</p>}
+
+							<div class="social">
+								<a href={`https://twitter.com/${twitter}/`}>
+									<img
+										src="/assets/icon/twitter.svg"
+										width="28"
+										alt="Twitter"
+									/>
+								</a>
+							</div>
+						</article>
+					))
+				}
+			</div>
+		</section>
+
+		<Footer />
+
+		<style>
+			.about {
+				display: grid;
+				gap: 50px;
+				grid-template-columns: auto 340px;
+				padding: 50px 0;
+			}
+
+			.team-grid {
+				display: grid;
+				gap: 50px;
+				grid-template-columns: repeat(3, 1fr);
+				margin-bottom: 100px;
+			}
+
+			@media screen and (max-width: 900px) {
+				.about {
+					grid-template-columns: auto;
+					grid-template-rows: 1fr auto;
+				}
+
+				.team-grid {
+					display: flex;
+					flex-direction: column;
+				}
+			}
+
+			article {
+				background: var(--color-navy-light) url(/assets/swoop.svg) no-repeat
+					right bottom;
+				background-size: 50% auto;
+				border: 1px solid #898c98;
+				padding: 20px;
+				padding-right: 35px;
+				position: relative;
+			}
+
+			article header {
+				color: white;
+				margin-bottom: 70px;
+			}
+
+			article header:has(img) {
+				padding-left: 120px;
+			}
+
+			article header img {
+				aspect-ratio: 1 / 1;
+				border-radius: 100%;
+				position: absolute;
+				top: -25px;
+				left: -25px;
+				width: 150px;
+			}
+
+			article h4 {
+				color: var(--color-magenta);
+				font-style: 24px;
+			}
+
+			article small {
+				font-size: 15px;
+			}
+
+			.social {
+				position: absolute;
+				bottom: 0;
+				right: 5px;
+				z-index: 1;
+			}
+
+			.social img {
+				filter: brightness(0);
+			}
+
+			.social a[href$="//twitter.com/undefined/"]
+			{
+				display: none;
+			}
+		</style>
+	</body>
+</html>
