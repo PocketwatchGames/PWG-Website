@@ -1,18 +1,19 @@
----
-const parent = import.meta.env.DEV ? "localhost" : "pocketwatchgames.com";
-const src = `//player.twitch.tv/?channel=pocketwatch&parent=${parent}`;
----
+<script>
+	const parent = import.meta.env.DEV ? "localhost" : "pocketwatchgames.com";
+	const src = `//player.twitch.tv/?channel=pocketwatch&parent=${parent}`;
+</script>
 
 <iframe
-	src={src}
-	parent={parent}
+	{src}
+	{parent}
 	height="720"
 	width="1280"
 	frameborder="0"
 	scrolling="no"
 	title="Twitch Embed"
 	allowfullscreen="true"
-	client:visible></iframe>
+	loading="lazy"
+/>
 
 <style>
 	iframe {
