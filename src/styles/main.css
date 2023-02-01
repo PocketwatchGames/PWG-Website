@@ -2,6 +2,7 @@
 	font-family: Gilam;
 	src: url(/assets/Gilam-Heavy.woff2);
 	font-weight: bold;
+	font-display: swap;
 }
 
 @font-face {
@@ -9,6 +10,7 @@
 	src: url(/assets/Gilam-HeavyItalic.woff2);
 	font-weight: bold;
 	font-style: italic;
+	font-display: swap;
 }
 
 .btn {
