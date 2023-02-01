@@ -4,28 +4,34 @@ export interface Props {
 }
 
 export interface Tweet {
-	id_str: string,
-	text: string,
+	id_str: string;
+	text: string;
 	user: {
-		name: string,
-		screen_name: string,
-		profile_image_url_https: string
-	}
+		name: string;
+		screen_name: string;
+		profile_image_url_https: string;
+	};
 }
 
 const { tweet } = Astro.props as Props;
 
 const { text, user, id_str } = tweet;
-
 ---
 
 <article class="tweet">
 	<header>
-		<img src={user.profile_image_url_https} width="48" height="48">
+		<img
+			src={user.profile_image_url_https}
+			width="48"
+			height="48"
+			alt="Twitter Avatar"
+		/>
 		<aside>
 			<h4 class="author">
-        <a href={`https://twitter.com/${user.screen_name}/status/${id_str}`}>{user.name}</a>
-      </h4>
+				<a href={`https://twitter.com/${user.screen_name}/status/${id_str}`}
+					>{user.name}</a
+				>
+			</h4>
 			<span class="handle">@{user.screen_name}</span>
 		</aside>
 	</header>
@@ -49,7 +55,8 @@ const { text, user, id_str } = tweet;
 		margin-right: 20px;
 	}
 
-	p, span {
+	p,
+	span {
 		font-size: 1rem;
 	}
 
