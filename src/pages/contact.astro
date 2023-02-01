@@ -23,7 +23,10 @@ let description = "Contact the Pocketwatch Games team.";
 		<div class="contact wrapper">
 			<main>
 				<h2>Get In Touch</h2>
-				<form action="https://formspree.io/tehstealth@yahoo.com" method="POST">
+				<form
+					action="https://formspree.io/support@pocketwatchgames.com"
+					method="POST"
+				>
 					<label for="topic">Topic</label>
 					<input type="text" id="topic" name="_subject" required />
 					<label for="name">Name</label>
@@ -33,7 +36,7 @@ let description = "Contact the Pocketwatch Games team.";
 					<label for="msg">Message</label>
 					<textarea id="msg" name="user_message" required></textarea>
 					<button class="btn" type="submit">Send message</button>
-					<!-- <input type="hidden" name="_next" value="/thank-you" /> -->
+					<input type="hidden" name="_next" value="/" />
 					<!-- <input type="hidden" name="_cc" value="another-email@email.com" /> -->
 				</form>
 			</main>
