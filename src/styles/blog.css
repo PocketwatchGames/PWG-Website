@@ -80,7 +80,7 @@ body {
 }
 
 body {
-	background: url("/assets/bg-stripe.avif") no-repeat fixed;
+	background: url("/assets/bg-stripe.webp") no-repeat fixed;
 	background-size: cover;
 	font-family: var(--font-body);
 	font-size: 1rem;
