@@ -17,7 +17,7 @@ const { title, description, publishDate, url, thumbnail } =
 		<time>{publishDate}</time>
 	</footer>
 	<!-- <p>{description}</p> -->
-	<a class="link-block" href={url}></a>
+	<a class="link-block" href={url}>{title}</a>
 </article>
 
 <style>
@@ -73,8 +73,11 @@ const { title, description, publishDate, url, thumbnail } =
 	}
 
 	.link-block {
+		color: transparent;
 		height: 100%;
+		overflow: hidden;
 		position: absolute;
+		text-indent: -200%;
 		width: 100%;
 	}
 </style>
