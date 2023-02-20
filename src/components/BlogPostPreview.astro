@@ -1,22 +1,20 @@
 ---
 export interface Props {
 	title: string;
-	description: string;
-	publishDate: string;
+	date: string;
 	url: string;
-	thumbnail: string;
+	tags: Array<string>;
+	thumbnail?: string;
 }
 
-const { title, description, publishDate, url, thumbnail } =
-	Astro.props as Props;
+const { title, date, url, thumbnail } = Astro.props as Props;
 ---
 
 <article class="post-preview" style={`background:url(${thumbnail})`}>
 	<footer>
 		<a href={url}><h3 class="title">{title}</h3></a>
-		<time>{publishDate}</time>
+		<time>{date}</time>
 	</footer>
-	<!-- <p>{description}</p> -->
 	<a class="link-block" href={url}>{title}</a>
 </article>
 

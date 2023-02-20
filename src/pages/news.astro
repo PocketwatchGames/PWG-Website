@@ -1,0 +1,61 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import BlogPostPreview from "../components/BlogPostPreview.astro";
+
+let title = "Pocketwatch Games | News";
+let description = "The latest from the PWG crew.";
+
+const unsortedPosts = await Astro.glob("./posts/*.md");
+const posts = unsortedPosts
+	.sort(function (a, b) {
+		return (
+			new Date(b.frontmatter.date).valueOf() -
+			new Date(a.frontmatter.date).valueOf()
+		);
+	})
+	.slice(0, 8);
+---
+
+<html lang="en">
+	<head>
+		<BaseHead title={title} description={description} />
+	</head>
+
+	<body>
+		<Header active="careers" />
+
+		<h1>
+			<div class="wrapper">Latest News</div>
+		</h1>
+
+		<section class="articles wrapper">
+			{
+				posts.map(({ frontmatter, url }) => (
+					<BlogPostPreview
+						title={frontmatter.title}
+						date={frontmatter.date}
+						url={url}
+						tags={frontmatter.tags}
+						thumbnail={frontmatter.thumbnail}
+					/>
+				))
+			}
+		</section>
+
+		<Footer />
+
+		<style>
+			.articles {
+				display: grid;
+				gap: 50px;
+				grid-template-columns: 1fr 1fr;
+			}
+
+			.articles :global(.post-preview) {
+				height: 300px;
+			}
+		</style>
+	</body>
+</html>

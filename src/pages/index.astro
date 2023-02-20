@@ -81,8 +81,7 @@ try {
 				<section class="news" aria-label="Blog post list">
 					<header>
 						<h2>Latest News</h2>
-						<a href="//blog.pocketwatchgames.com" class="invert btn">All News</a
-						>
+						<a href="/news" class="invert btn">All News</a>
 					</header>
 
 					<div class="posts">
@@ -90,9 +89,9 @@ try {
 							posts.map(({ url, frontmatter }) => (
 								<BlogPostPreview
 									title={frontmatter.title}
-									description={frontmatter.description}
-									publishDate={frontmatter.publishDate}
+									date={frontmatter.date}
 									url={url}
+									tags={frontmatter.tags}
 									thumbnail={frontmatter.thumbnail}
 								/>
 							))

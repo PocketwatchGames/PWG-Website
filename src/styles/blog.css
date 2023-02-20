@@ -12,6 +12,7 @@
 	--color-navy: #060a1b;
 	--color-navy-light: #131930;
 	--color-magenta: #c02179;
+	--color-gray-light: #cfcfcf;
 
 	--color-gray-50: #f9fafb;
 	--color-gray-100: #f3f4f6;
@@ -24,7 +25,7 @@
 	--color-gray-800: #1f2937;
 	--color-gray-900: #111827;
 
-	--color-blue: #3894ff;
+	/* --color-blue: #3894ff;
 	--color-blue-rgb: 56, 148, 255;
 	--color-green: #17c083;
 	--color-green-rgb: 23, 192, 131;
@@ -35,13 +36,13 @@
 	--color-red: #ff1639;
 	--color-red-rgb: 255, 22, 57;
 	--color-yellow: #ffbe2d;
-	--color-yellow-rgb: 255, 190, 45;
+	--color-yellow-rgb: 255, 190, 45; */
 }
 
 :root {
 	color-scheme: dark;
 	--theme-accent: var(--color-magenta);
-	--theme-accent-rgb: var(--color-orange-rgb);
+	--theme-accent-rgb: var(--color-magenta);
 	--theme-accent-opacity: 0.1;
 	--theme-divider: var(--color-gray-100);
 	--theme-text: var(--color-gray-800);
@@ -152,8 +153,8 @@ h4 {
 	font-size: clamp(1.2rem, 1.15rem + 0.125vw, 1.25rem);
 }
 
-p {
-	color: var(--color-white);
+p,
+.content main > * + * {
 	margin-bottom: 2rem;
 }
 
@@ -204,6 +205,43 @@ a:focus {
 strong {
 	font-weight: 600;
 	color: inherit;
+}
+
+.content main {
+	background: var(--color-gray-light);
+	padding: 100px 50px 150px;
+}
+
+.content main p {
+	color: var(--color-gray-900);
+}
+
+.content main h1 {
+	display: none;
+}
+
+.content main :is(h2, h3, h4, h5, h6) {
+	color: var(--color-magenta);
+}
+
+.content main :is(h2) {
+	font-style: normal;
+}
+
+.content main :is(h3) {
+	font-family: var(--font-body);
+	font-style: italic;
+	font-weight: 500;
+}
+
+.content main img {
+	display: block;
+	margin: 0 auto;
+}
+
+.vid-box iframe {
+	display: block;
+	margin: 0 auto;
 }
 
 /* Supporting Content */
