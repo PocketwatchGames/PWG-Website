@@ -4,7 +4,7 @@ date: "2022-02-08T19:49:54+00:00"
 draft: false
 tags: []
 title: "Pocketwatch’s New Art Director - Lee Dotson"
-thumbnail: "/assets/home-news-thumb-3.webp"
+thumbnail: "/assets/blog/lee.jpeg"
 ---
 
 Please welcome Lee Dotson as Pocketwatch’s new art director!

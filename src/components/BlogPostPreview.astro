@@ -5,12 +5,28 @@ export interface Props {
 	url: string;
 	tags: Array<string>;
 	thumbnail?: string;
+	thumbnailAlt?: string;
 }
 
-const { title, date, url, thumbnail } = Astro.props as Props;
+const { title, date, url, thumbnail, thumbnailAlt } = Astro.props as Props;
+
+import { Image } from "@astrojs/image/components";
 ---
 
-<article class="post-preview" style={`background:url(${thumbnail})`}>
+<article class="post-preview">
+	{
+		thumbnail && (
+			<Image
+				class="thumbnail"
+				format="webp"
+				width={600}
+				height={300}
+				loading="lazy"
+				src={thumbnail}
+				alt={thumbnailAlt || "blog post preview"}
+			/>
+		)
+	}
 	<footer>
 		<a href={url}><h3 class="title">{title}</h3></a>
 		<time>{date}</time>
@@ -20,8 +36,8 @@ const { title, date, url, thumbnail } = Astro.props as Props;
 
 <style>
 	.post-preview {
-		background: var(--color-white);
-		background-size: cover !important;
+		background: #1a2746 url("/assets/pwg-logo.svg") no-repeat center;
+		background-size: contain;
 		height: 200px;
 		margin-bottom: 40px;
 		position: relative;
@@ -30,6 +46,13 @@ const { title, date, url, thumbnail } = Astro.props as Props;
 
 	.post-preview:not(:hover) footer {
 		transform: translateY(10%);
+	}
+
+	img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
 	}
 
 	footer {

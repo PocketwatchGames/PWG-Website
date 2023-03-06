@@ -239,6 +239,28 @@ strong {
 	margin: 0 auto;
 }
 
+.blog.content :where(img) {
+	width: 100vw;
+	object-fit: cover;
+	object-position: center;
+	margin-top: 2rem;
+	margin-bottom: 4rem;
+	max-width: 100%;
+}
+
+.hero-banner {
+	display: block;
+	margin: 0;
+}
+
+@media (max-width: 50em) {
+	.blog.content img {
+		height: 260px;
+		margin-top: 0;
+		margin-bottom: 2rem;
+	}
+}
+
 .vid-box iframe {
 	display: block;
 	margin: 0 auto;

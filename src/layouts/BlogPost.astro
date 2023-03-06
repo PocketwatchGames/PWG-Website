@@ -2,21 +2,19 @@
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import { Image } from "@astrojs/image/components";
 
 export interface Props {
 	content: {
 		title: string;
 		tags: string[];
 		date: string;
-		heroImage?: {
-			src: string;
-			alt: string;
-		};
+		thumbnail?: string;
 	};
 }
 
 const {
-	content: { title, tags, date, heroImage },
+	content: { title, tags, date, thumbnail },
 } = Astro.props as Props;
 ---
 
@@ -32,15 +30,17 @@ const {
 			<div class="wrapper">{title}</div>
 		</h1>
 
-		<article class="wrapper content">
+		<article class="wrapper blog content">
 			{
-				heroImage && (
-					<img
-						width="1280"
-						height="600"
+				thumbnail && (
+					<Image
+						class="hero-banner"
+						format="webp"
+						width={1200}
+						height={600}
 						loading="lazy"
-						src={heroImage.src}
-						alt={heroImage.alt}
+						src={thumbnail}
+						alt="blog post hero banner"
 					/>
 				)
 			}
@@ -51,24 +51,5 @@ const {
 		</article>
 
 		<Footer />
-
-		<style>
-			img {
-				width: 100vw;
-				object-fit: cover;
-				object-position: center;
-				margin-top: 2rem;
-				margin-bottom: 4rem;
-				max-width: 1280px;
-			}
-
-			@media (max-width: 50em) {
-				img {
-					height: 260px;
-					margin-top: 0;
-					margin-bottom: 2rem;
-				}
-			}
-		</style>
 	</body>
 </html>
