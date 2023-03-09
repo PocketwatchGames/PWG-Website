@@ -41,7 +41,7 @@ title: "Wherefore [ARMADA]?"
 <p><span>In broad terms, the player character in [ARMADA] is the primary attack force, their army is the primary defensive force, and economy management happens in traditional RTS ways.</span></p>
 <p><strong>Competition, Co-op, Replays, Editor, Modding</strong></p>
 <p><span>Yes, [ARMADA] is being built with competition and co-op in mind. &nbsp;We&rsquo;re only a month into development and we already have a strong networking system built for the basic features, a working replay system, a basic editor, and pretty much all of the game data is in human-readable (and editable) XML format.</span></p>
-<p><a href="http://pocketwatchgames.com/presskit/armada/images/2014_03_11_Prototype.png"><span><span><img alt="image" src="/img/2014-03-11-wherefore-armada\491b116a861e21bd9a527a64ff3eb5487fc7113b11c604c82d6b3456805cb006.png" /></span></span></a></p>
+<p><a href="http://pocketwatchgames.com/presskit/armada/images/2014_03_11_Prototype.png"><span><span><img alt="image" src="/assets/blog/img/2014-03-11-wherefore-armada\491b116a861e21bd9a527a64ff3eb5487fc7113b11c604c82d6b3456805cb006.png" /></span></span></a></p>
 <p></p>
 <h2><span>When [ARMADA]?</span></h2>
 <p><span>I honestly don&rsquo;t know if [ARMADA] will be another three year project&nbsp;&nbsp;<a href="http://www.dukenukemforever.com/full/us/#?age_gate">I don&rsquo;t even know if it will be longer than a 6 month project</a>. &nbsp;Sound kind of familiar? &nbsp;That&rsquo;s how Monaco started out&hellip; as a 6 week XBLIG game.</span></p>

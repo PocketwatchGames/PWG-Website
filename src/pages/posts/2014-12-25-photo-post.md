@@ -6,4 +6,4 @@ tags: ["art", "masta"]
 title: "Photo post"
 ---
 
-[image](/img/2014-12-25-photo-post\2c5f237cf74aa2024499b88f3e5585e05dff9e75c7368cdfd171d3208d92dc20.png)
+![image](/assets/blog/img/2014-12-25-photo-post\2c5f237cf74aa2024499b88f3e5585e05dff9e75c7368cdfd171d3208d92dc20.png)

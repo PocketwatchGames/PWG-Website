@@ -240,7 +240,6 @@ strong {
 }
 
 .blog.content :where(img) {
-	width: 100vw;
 	object-fit: cover;
 	object-position: center;
 	margin-top: 2rem;
@@ -248,9 +247,10 @@ strong {
 	max-width: 100%;
 }
 
-.hero-banner {
+.blog.content .hero-banner {
 	display: block;
 	margin: 0;
+	width: 100vw;
 }
 
 @media (max-width: 50em) {

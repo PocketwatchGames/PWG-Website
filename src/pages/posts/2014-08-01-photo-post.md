@@ -6,6 +6,6 @@ tags: ["armada", "[armada]", "art"]
 title: "Photo post"
 ---
 
-[image](/img/2014-08-01-photo-post\550d52779026a16037150c3c09b03e18baa3cc1756db4913749fb7bc5486e15b.gif)
+<img src='/assets/blog/img/2014-08-01-photo-post/550d52779026a16037150c3c09b03e18baa3cc1756db4913749fb7bc5486e15b.gif' width='200' height='309' style="width: 200px" />
 
 Jerome Jacinto's [ARMADA] poster timelapse

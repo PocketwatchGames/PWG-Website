@@ -8,7 +8,7 @@ title: "Previously on Monaco (Part 1/3): The Locksmith's Story (SPOILERS ABOUND!
 
 <p>We will soon be talking about <strong>an upcoming FREE DLC Campaign</strong> which serves as the&nbsp;final chapter in Monaco. Here is the story so far...</p>
 <p><strong>The Prison Break</strong></p>
-<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\d8f3d67cb9d805d36b01a6bd87f845947a4bb0b28c82fda5e3082e4133ca7981.png"><img alt="image" src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\cc98ce3baee44916dfebdd6ef53befd603c5ba551dfa452e6609501314796420.png" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\d8f3d67cb9d805d36b01a6bd87f845947a4bb0b28c82fda5e3082e4133ca7981.png"></figure></strong></p>
+<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\d8f3d67cb9d805d36b01a6bd87f845947a4bb0b28c82fda5e3082e4133ca7981.png"><img alt="image" src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\cc98ce3baee44916dfebdd6ef53befd603c5ba551dfa452e6609501314796420.png" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\d8f3d67cb9d805d36b01a6bd87f845947a4bb0b28c82fda5e3082e4133ca7981.png"></figure></strong></p>
 <p><!-- more --></p>
 <div>
 <p><span>|Lookout|&nbsp;</span>Psst.</p>
@@ -24,7 +24,7 @@ title: "Previously on Monaco (Part 1/3): The Locksmith's Story (SPOILERS ABOUND!
 </blockquote>
 <p></p>
 <p><span><span><span><strong>Hijack at the Hairpin</strong><br><span></span></span></span></span></p>
-<p><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\0f3b2edce8a3768e76126693771df6dd1ec3c4556b4bc3042517aa433ad8e1d2.png"><img alt="image" src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\5a08fc22caec5390d67bf648f81bc02e058e5aa36d823ce50a211dfc4e7d695b.png" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\0f3b2edce8a3768e76126693771df6dd1ec3c4556b4bc3042517aa433ad8e1d2.png"></figure></p>
+<p><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\0f3b2edce8a3768e76126693771df6dd1ec3c4556b4bc3042517aa433ad8e1d2.png"><img alt="image" src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\5a08fc22caec5390d67bf648f81bc02e058e5aa36d823ce50a211dfc4e7d695b.png" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\0f3b2edce8a3768e76126693771df6dd1ec3c4556b4bc3042517aa433ad8e1d2.png"></figure></p>
 <p></p>
 <div>
 <p><span>|Locksmith|&nbsp;</span>We need passports...</p>
@@ -46,7 +46,7 @@ title: "Previously on Monaco (Part 1/3): The Locksmith's Story (SPOILERS ABOUND!
 </blockquote>
 <p></p>
 <p><span></span><strong>The Lebanese Embassy</strong></p>
-<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\9e57645955689b1d36fe1b0c52459ba7c8a74addaf6378e168eae0188d5b36ae.png"><img alt="image" src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\8a58c221acf777b905dc80b82759a9fbbfd1c9bf0e6b0f0b8e8e88859a2db2c4.png" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\9e57645955689b1d36fe1b0c52459ba7c8a74addaf6378e168eae0188d5b36ae.png"></figure></strong></p>
+<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\9e57645955689b1d36fe1b0c52459ba7c8a74addaf6378e168eae0188d5b36ae.png"><img alt="image" src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\8a58c221acf777b905dc80b82759a9fbbfd1c9bf0e6b0f0b8e8e88859a2db2c4.png" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\9e57645955689b1d36fe1b0c52459ba7c8a74addaf6378e168eae0188d5b36ae.png"></figure></strong></p>
 <p></p>
 </div>
 <div><span></span>
@@ -65,7 +65,7 @@ title: "Previously on Monaco (Part 1/3): The Locksmith's Story (SPOILERS ABOUND!
 </blockquote>
 <p></p>
 <p><strong>Banque Albert</strong></p>
-<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\9080cfb421df2768a9b6ab6cf60dd4140b65904836d343a139c9893f76fd7ab8.png"><img alt="image" src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\7cd4837b3bbde542c26e5e143eb245e5db01c73719d425ace9635700de4ace7b.png" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\9080cfb421df2768a9b6ab6cf60dd4140b65904836d343a139c9893f76fd7ab8.png"></figure></strong></p>
+<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\9080cfb421df2768a9b6ab6cf60dd4140b65904836d343a139c9893f76fd7ab8.png"><img alt="image" src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\7cd4837b3bbde542c26e5e143eb245e5db01c73719d425ace9635700de4ace7b.png" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\9080cfb421df2768a9b6ab6cf60dd4140b65904836d343a139c9893f76fd7ab8.png"></figure></strong></p>
 <p></p>
 <p><span></span>|Mole|&nbsp;<span>Mole has friend that can help dirty criminals escape.</span></p>
 <p><span></span>|Cleaner|&nbsp;...</p>
@@ -80,7 +80,7 @@ title: "Previously on Monaco (Part 1/3): The Locksmith's Story (SPOILERS ABOUND!
 </blockquote>
 <p></p>
 <p><strong>Mansion Moucharder</strong></p>
-<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\decd1ffdd066cb0a9957af7c0debf0bd813099b3e4b7cdc90c4f0a74c830d1e7.png"><img alt="image" src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\928ee1f14dc66be8016d23b5e7f300a5af4030a5fd556b77b4e23679b0097033.png" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\decd1ffdd066cb0a9957af7c0debf0bd813099b3e4b7cdc90c4f0a74c830d1e7.png"></figure></strong></p>
+<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\decd1ffdd066cb0a9957af7c0debf0bd813099b3e4b7cdc90c4f0a74c830d1e7.png"><img alt="image" src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\928ee1f14dc66be8016d23b5e7f300a5af4030a5fd556b77b4e23679b0097033.png" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\decd1ffdd066cb0a9957af7c0debf0bd813099b3e4b7cdc90c4f0a74c830d1e7.png"></figure></strong></p>
 <p></p>
 <p><span></span>|Telephone|&nbsp;*ring*</p>
 <p><span>|Gentleman|&nbsp;</span>Bonsoir?</p>
@@ -99,7 +99,7 @@ title: "Previously on Monaco (Part 1/3): The Locksmith's Story (SPOILERS ABOUND!
 </blockquote>
 <p></p>
 <p><strong>Le Port de La Condamine</strong></p>
-<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\5d312457a07b17cbcee6daf4bcf1218f21c450e75f17ce26f7328c847cb454a7.png"><img alt="image" src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\2879db2cb4490d98c2537bb87bb3ca0b83f30b505e472eda06d71215ecbaf5f2.png" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\5d312457a07b17cbcee6daf4bcf1218f21c450e75f17ce26f7328c847cb454a7.png"></figure></strong></p>
+<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\5d312457a07b17cbcee6daf4bcf1218f21c450e75f17ce26f7328c847cb454a7.png"><img alt="image" src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\2879db2cb4490d98c2537bb87bb3ca0b83f30b505e472eda06d71215ecbaf5f2.png" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\5d312457a07b17cbcee6daf4bcf1218f21c450e75f17ce26f7328c847cb454a7.png"></figure></strong></p>
 <p></p>
 <p>|Gentleman|&nbsp;I suppose this meeting is not by chance?</p>
 <p><span>|Lookout|&nbsp;</span>The Mole here said you've got access to a yacht.</p>
@@ -117,7 +117,7 @@ title: "Previously on Monaco (Part 1/3): The Locksmith's Story (SPOILERS ABOUND!
 </blockquote>
 <p></p>
 <p><strong>Scorpion and The Frog</strong></p>
-<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\2887044c4565a9929ebdfaff5884b782c75638c44a419856a11132782e887d75.png"><img alt="image" src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\3e45ff573bcd341ee41d477860f445caa0085fc9fef419487999f85ffe98842d.png" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\2887044c4565a9929ebdfaff5884b782c75638c44a419856a11132782e887d75.png"></figure></strong></p>
+<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\2887044c4565a9929ebdfaff5884b782c75638c44a419856a11132782e887d75.png"><img alt="image" src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\3e45ff573bcd341ee41d477860f445caa0085fc9fef419487999f85ffe98842d.png" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\2887044c4565a9929ebdfaff5884b782c75638c44a419856a11132782e887d75.png"></figure></strong></p>
 <p></p>
 <p><span></span>|Telephone|&nbsp;*ring*</p>
 <p><span>|Gentleman|&nbsp;</span>Bonsoir?</p>
@@ -149,7 +149,7 @@ title: "Previously on Monaco (Part 1/3): The Locksmith's Story (SPOILERS ABOUND!
 </blockquote>
 <p></p>
 <p><strong>Centre Hospitalier</strong></p>
-<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\ed46023da34210886af53ed8aea47da33cdfd77435bfeba3c2a545a4940b59ad.png"><img alt="image" src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\3b6f577c4ec9ec2adf1ce85464e672cd75b27a3c661a36519d65dd8bc039f223.png" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\ed46023da34210886af53ed8aea47da33cdfd77435bfeba3c2a545a4940b59ad.png"></figure></strong></p>
+<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\ed46023da34210886af53ed8aea47da33cdfd77435bfeba3c2a545a4940b59ad.png"><img alt="image" src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\3b6f577c4ec9ec2adf1ce85464e672cd75b27a3c661a36519d65dd8bc039f223.png" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\ed46023da34210886af53ed8aea47da33cdfd77435bfeba3c2a545a4940b59ad.png"></figure></strong></p>
 <p></p>
 <blockquote>
 <p>|Locksmith|&nbsp;I can still hear the ringing in my ears.</p>
@@ -184,7 +184,7 @@ title: "Previously on Monaco (Part 1/3): The Locksmith's Story (SPOILERS ABOUND!
 </blockquote>
 <p></p>
 <p><strong>Securitech Corp.</strong></p>
-<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\42c7a2777bbd66c5c2efd4107922b0a166ec3f0f3406eb4dc544a7d2cf5125e0.png"><img alt="image" src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\fc73853c9648627da02a0f5e90bd3f4068ea4ed7214fce840d59cedc2995c6ac.png" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\42c7a2777bbd66c5c2efd4107922b0a166ec3f0f3406eb4dc544a7d2cf5125e0.png"></figure></strong></p>
+<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\42c7a2777bbd66c5c2efd4107922b0a166ec3f0f3406eb4dc544a7d2cf5125e0.png"><img alt="image" src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\fc73853c9648627da02a0f5e90bd3f4068ea4ed7214fce840d59cedc2995c6ac.png" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\42c7a2777bbd66c5c2efd4107922b0a166ec3f0f3406eb4dc544a7d2cf5125e0.png"></figure></strong></p>
 <p></p>
 <span></span>
 <p><span>|Hacker|&nbsp;</span>sneaksquadatyourservice</p>
@@ -207,7 +207,7 @@ title: "Previously on Monaco (Part 1/3): The Locksmith's Story (SPOILERS ABOUND!
 </blockquote>
 <p></p>
 <p><strong>Musee Oceanographique</strong></p>
-<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\ad9d1e2e54f6883cbf07ddfc6f3a3455333d71a4938a46675092568b6f437c66.png"><img alt="image" src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\f64971fb6a687fb6a35127a5ef856afb84bf071b0dd074f8ccaeb3fb08f54dd9.png" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\ad9d1e2e54f6883cbf07ddfc6f3a3455333d71a4938a46675092568b6f437c66.png"></figure></strong></p>
+<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\ad9d1e2e54f6883cbf07ddfc6f3a3455333d71a4938a46675092568b6f437c66.png"><img alt="image" src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\f64971fb6a687fb6a35127a5ef856afb84bf071b0dd074f8ccaeb3fb08f54dd9.png" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\ad9d1e2e54f6883cbf07ddfc6f3a3455333d71a4938a46675092568b6f437c66.png"></figure></strong></p>
 <p></p>
 <p>|Locksmith|&nbsp;Our work here is done.</p>
 <p><span>|Lookout|&nbsp;</span>Time for the smuggler to fulfill his side of the deal and get us out of the country.</p>
@@ -230,7 +230,7 @@ title: "Previously on Monaco (Part 1/3): The Locksmith's Story (SPOILERS ABOUND!
 </blockquote>
 <p></p>
 <p><strong>Discotheque Rouge</strong></p>
-<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\ac55e8e3e6daa9cdd6c0e024fcf32f938cb476ecc1e21e0d3df0dc1dbd1a4f34.png"><img alt="image" src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\194f1a3d6a080c0c8065bf45645a4cd15c0fd32f1e1982eb1b3b5b7485fea0b9.png" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\ac55e8e3e6daa9cdd6c0e024fcf32f938cb476ecc1e21e0d3df0dc1dbd1a4f34.png"></figure></strong></p>
+<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\ac55e8e3e6daa9cdd6c0e024fcf32f938cb476ecc1e21e0d3df0dc1dbd1a4f34.png"><img alt="image" src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\194f1a3d6a080c0c8065bf45645a4cd15c0fd32f1e1982eb1b3b5b7485fea0b9.png" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\ac55e8e3e6daa9cdd6c0e024fcf32f938cb476ecc1e21e0d3df0dc1dbd1a4f34.png"></figure></strong></p>
 <p></p>
 <blockquote>
 <p>|Locksmith|&nbsp;Somehow The Gentleman had made us lose sight of our goal.</p>
@@ -249,7 +249,7 @@ title: "Previously on Monaco (Part 1/3): The Locksmith's Story (SPOILERS ABOUND!
 </blockquote>
 <p></p>
 <p><strong>Quartier Diamant</strong></p>
-<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\b925a2aec08d66cc51f82860bff7eb360ba8ef52176dc31263dc3708457efe91.png"><img alt="image" src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\2d06cc4bbdb78e22c2943e8a97fbf80714f5b6bd1ea6dda74d16e0fe3c8e13e1.png" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\b925a2aec08d66cc51f82860bff7eb360ba8ef52176dc31263dc3708457efe91.png"></figure></strong></p>
+<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\b925a2aec08d66cc51f82860bff7eb360ba8ef52176dc31263dc3708457efe91.png"><img alt="image" src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\2d06cc4bbdb78e22c2943e8a97fbf80714f5b6bd1ea6dda74d16e0fe3c8e13e1.png" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\b925a2aec08d66cc51f82860bff7eb360ba8ef52176dc31263dc3708457efe91.png"></figure></strong></p>
 <p></p>
 <span></span>
 <p><span>|Redhead|&nbsp;</span>...I killed him...</p>
@@ -265,7 +265,7 @@ title: "Previously on Monaco (Part 1/3): The Locksmith's Story (SPOILERS ABOUND!
 </blockquote>
 <p></p>
 <p><strong>Galerie d'Art</strong></p>
-<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\a69839f80d0ed31a322034bd470b3d0e5915751a14823e1447cfa99ba2d0c33d.png"><img alt="image" src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\a35f8085b75bb088aa7eed66022e1aab19029702db36f466e04d5e5fe4a34cf6.png" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\a69839f80d0ed31a322034bd470b3d0e5915751a14823e1447cfa99ba2d0c33d.png"></figure></strong></p>
+<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\a69839f80d0ed31a322034bd470b3d0e5915751a14823e1447cfa99ba2d0c33d.png"><img alt="image" src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\a35f8085b75bb088aa7eed66022e1aab19029702db36f466e04d5e5fe4a34cf6.png" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\a69839f80d0ed31a322034bd470b3d0e5915751a14823e1447cfa99ba2d0c33d.png"></figure></strong></p>
 <p></p>
 <p>|Redhead|&nbsp;My sweet scorpion, these frogs you found have been such DEARS.</p>
 <p><span>|Gentleman|&nbsp;</span>Yes, my dear, they have been VERY helpful.</p>
@@ -285,7 +285,7 @@ title: "Previously on Monaco (Part 1/3): The Locksmith's Story (SPOILERS ABOUND!
 </blockquote>
 <p></p>
 <p><strong>Place du Palais</strong></p>
-<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\88ee8ee8debb0a34321c1c382af802477c1ad8b25c3a8bbbdbaa9aa026431d47.png"><img alt="image" src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\3c8c01d47d1f6ca7f4b0c482814308ed20dbe7e1514b5287fb35644aec4c45e0.png" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\88ee8ee8debb0a34321c1c382af802477c1ad8b25c3a8bbbdbaa9aa026431d47.png"></figure></strong></p>
+<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\88ee8ee8debb0a34321c1c382af802477c1ad8b25c3a8bbbdbaa9aa026431d47.png"><img alt="image" src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\3c8c01d47d1f6ca7f4b0c482814308ed20dbe7e1514b5287fb35644aec4c45e0.png" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\88ee8ee8debb0a34321c1c382af802477c1ad8b25c3a8bbbdbaa9aa026431d47.png"></figure></strong></p>
 <p></p>
 <blockquote>
 <p><span>|Locksmith|&nbsp;</span>That night was to be our last night in the Riviera.</p>
@@ -307,7 +307,7 @@ title: "Previously on Monaco (Part 1/3): The Locksmith's Story (SPOILERS ABOUND!
 </blockquote>
 <p></p>
 <p><strong>Casino de Monte Carlo</strong></p>
-<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\6db042043038d4b0fff414e83b416fc3eb3e7b9a86fedae793dffd994cf79d1c.png"><img alt="image" src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\559b2cbff9d14f92eae6b85445c5817ccdeefd6e67933582171a7258105af323.png" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\6db042043038d4b0fff414e83b416fc3eb3e7b9a86fedae793dffd994cf79d1c.png"></figure></strong></p>
+<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\6db042043038d4b0fff414e83b416fc3eb3e7b9a86fedae793dffd994cf79d1c.png"><img alt="image" src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\559b2cbff9d14f92eae6b85445c5817ccdeefd6e67933582171a7258105af323.png" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\6db042043038d4b0fff414e83b416fc3eb3e7b9a86fedae793dffd994cf79d1c.png"></figure></strong></p>
 <p></p>
 <blockquote>
 <p>|Locksmith|&nbsp;The big windows of our suite at the H&ocirc;tel de Paris...</p>
@@ -325,7 +325,7 @@ title: "Previously on Monaco (Part 1/3): The Locksmith's Story (SPOILERS ABOUND!
 </blockquote>
 <p></p>
 <p><strong>Hotel de Monaco</strong></p>
-<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\7c43e175c0f0b0237005d9fb3b0182b1c93e8f474be51c22cac330eb13766e0f.png"><img alt="image" src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\50867f11e3b7038024cdc0e9f83c7e62bd9d6dae50eb35b8589f4f5470384272.png" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\7c43e175c0f0b0237005d9fb3b0182b1c93e8f474be51c22cac330eb13766e0f.png"></figure></strong></p>
+<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\7c43e175c0f0b0237005d9fb3b0182b1c93e8f474be51c22cac330eb13766e0f.png"><img alt="image" src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\50867f11e3b7038024cdc0e9f83c7e62bd9d6dae50eb35b8589f4f5470384272.png" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\7c43e175c0f0b0237005d9fb3b0182b1c93e8f474be51c22cac330eb13766e0f.png"></figure></strong></p>
 <p></p>
 <p>|Gentleman|&nbsp;Mes amis? Gather on the balcony for me.</p>
 <p><span>|Gentleman|&nbsp;</span>I'd like to offer a toast.</p>
@@ -353,7 +353,7 @@ title: "Previously on Monaco (Part 1/3): The Locksmith's Story (SPOILERS ABOUND!
 </blockquote>
 <p></p>
 <p><strong>Epilogue</strong></p>
-<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\67ac9200b5592a44fae920594f85c390d0ebff7dc3319bde8aad4fea32a54288.png"><img alt="image" src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\8ed4232fb564ade1168f9adb662c819b82ed6458af3a5eb7288be8a5944bb9de.png" data-orig-height="226" data-orig-width="500" data-orig-src="/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\67ac9200b5592a44fae920594f85c390d0ebff7dc3319bde8aad4fea32a54288.png"></figure></strong></p>
+<p><strong><figure class="tmblr-full" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\67ac9200b5592a44fae920594f85c390d0ebff7dc3319bde8aad4fea32a54288.png"><img alt="image" src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\8ed4232fb564ade1168f9adb662c819b82ed6458af3a5eb7288be8a5944bb9de.png" data-orig-height="226" data-orig-width="500" data-orig-src="/assets/blog/img/2014-03-08-previously-on-monaco-part-13-the-locksmiths-story-spoilers-abound\67ac9200b5592a44fae920594f85c390d0ebff7dc3319bde8aad4fea32a54288.png"></figure></strong></p>
 <p></p>
 <blockquote>
 <p>|Locksmith|&nbsp;They're still out there, y'know.</p>

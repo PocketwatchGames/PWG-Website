@@ -4,6 +4,7 @@ date: "2020-06-24T18:02:16+00:00"
 draft: false
 tags: ["patch notes"]
 title: "Patch 1.7 : Qui va là? (+Season 5)"
+thumbnail: "/assets/blog/patch17.png"
 ---
 
 ![patch1-6-2-0_header.png](https://i.imgur.com/5UFZgxG.png "Qui va là ?")

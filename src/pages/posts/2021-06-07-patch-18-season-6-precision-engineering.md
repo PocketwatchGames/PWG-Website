@@ -4,6 +4,8 @@ date: "2021-06-07T17:13:00+00:00"
 draft: false
 tags: ["patch notes"]
 title: "Patch 1.8: Season 6 & Precision Engineering"
+thumbnail: "/assets/blog/patch18.png"
+thumbnailAlt: "Hopper and the scrap metal vendor"
 ---
 
 # Patch 1.8: Season 6 & Precision Engineering
