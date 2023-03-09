@@ -10,6 +10,9 @@ export interface Props {
 
 const { title, date, url, thumbnail, thumbnailAlt } = Astro.props as Props;
 
+const d = new Date(date);
+const prettyDate = `${d.getMonth() + 1}/${d.getDate()}/${d.getFullYear()}`;
+
 import { Image } from "@astrojs/image/components";
 ---
 
@@ -29,7 +32,7 @@ import { Image } from "@astrojs/image/components";
 	}
 	<footer>
 		<a href={url}><h3 class="title">{title}</h3></a>
-		<time>{date}</time>
+		<time>{prettyDate}</time>
 	</footer>
 	<a class="link-block" href={url}>{title}</a>
 </article>
