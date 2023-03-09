@@ -10,11 +10,12 @@ export interface Props {
 		tags: string[];
 		date: string;
 		thumbnail?: string;
+		thumbnailAlt?: string;
 	};
 }
 
 const {
-	content: { title, tags, date, thumbnail },
+	content: { title, tags, date, thumbnail, thumbnailAlt },
 } = Astro.props as Props;
 ---
 
@@ -40,7 +41,7 @@ const {
 						height={600}
 						loading="lazy"
 						src={thumbnail}
-						alt="blog post hero banner"
+						alt={thumbnailAlt || "blog post hero banner"}
 					/>
 				)
 			}
