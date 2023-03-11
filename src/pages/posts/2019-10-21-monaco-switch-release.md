@@ -3,7 +3,7 @@ layout: ../../layouts/BlogPost.astro
 date: "2019-10-21T16:03:33+00:00"
 draft: false
 tags: ["monaco switch nintendo"]
-title: ""
+title: "Monaco on Switch Released"
 ---
 
 Monaco: Complete Edition for the Nintendo Switch is OUT NOW! Head to the eShop and download it!

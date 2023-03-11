@@ -1,13 +1,15 @@
 ---
-import BaseHead from "../components/BaseHead.astro";
-import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
-import BlogPostPreview from "../components/BlogPostPreview.astro";
+import BaseHead from "../../components/BaseHead.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import BlogPostPreview from "../../components/BlogPostPreview.astro";
 
 let title = "Pocketwatch Games | News";
 let description = "The latest from the PWG crew.";
 
-const unsortedPosts = await Astro.glob("./posts/*.md");
+const { page } = Astro.params;
+
+const unsortedPosts = await Astro.glob("../posts/*.md");
 const posts = unsortedPosts
 	.sort(function (a, b) {
 		return (
@@ -15,7 +17,7 @@ const posts = unsortedPosts
 			new Date(a.frontmatter.date).valueOf()
 		);
 	})
-	.slice(0, 8);
+	.slice((parseInt(page) - 1) * 8, parseInt(page) * 8);
 ---
 
 <html lang="en">
