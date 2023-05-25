@@ -68,24 +68,29 @@ const client = new Twitter({
 	consumer_secret: import.meta.env.PUBLIC_SECRET,
 	bearer_token: import.meta.env.PUBLIC_TOKEN,
 });
+let finalTweets = [];
 
-const andyTweets = client.get("statuses/user_timeline", {
-	screen_name: "andyschatz",
-	count: 2,
-});
+try {
+	const andyTweets = client.get("statuses/user_timeline", {
+		screen_name: "andyschatz",
+		count: 2,
+	});
 
-const pwgTweets = client.get("statuses/user_timeline", {
-	screen_name: "pocketwatchg",
-	count: 2,
-});
+	const pwgTweets = client.get("statuses/user_timeline", {
+		screen_name: "pocketwatchg",
+		count: 2,
+	});
 
-const tweets = await Promise.all([andyTweets, pwgTweets]);
-const allTweets = tweets.flat();
-const finalTweets = [...allTweets]
-	.sort((a, b) => {
-		return b.id - a.id;
-	})
-	.slice(0, 2);
+	const tweets = await Promise.all([andyTweets, pwgTweets]);
+	const allTweets = tweets.flat();
+	finalTweets = [...allTweets]
+		.sort((a, b) => {
+			return b.id - a.id;
+		})
+		.slice(0, 2);
+} catch (e) {
+	console.error(e);
+}
 ---
 
 <html lang="en">
