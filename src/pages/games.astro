@@ -4,8 +4,6 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import Game from "../components/Game.astro";
 
-import { Image } from "@astrojs/image/components";
-
 import monaco1 from "../assets/screenshots/monaco_1_1.jpg";
 import monaco2 from "../assets/screenshots/monaco_1_2.jpg";
 import monaco3 from "../assets/screenshots/monaco_1_3.jpg";
@@ -51,7 +49,7 @@ let description = "Collection of games created by us.";
 			</p>
 			<section class="img-slider" slot="media">
 				<a class="glightbox" href={monaco21.src} data-gallery="monaco2">
-					<Image
+					<img
 						src={monaco21}
 						alt="Monaco 2 Screenshot"
 						width={300}
@@ -59,7 +57,7 @@ let description = "Collection of games created by us.";
 				</a>
 
 				<a class="glightbox" href={monaco22.src} data-gallery="monaco2">
-					<Image
+					<img
 						src={monaco22}
 						alt="Monaco 2 Screenshot"
 						width={300}
@@ -71,7 +69,7 @@ let description = "Collection of games created by us.";
 					href="https://www.youtube.com/watch?v=_RUzZ69hoiY"
 					data-gallery="monaco2"
 				>
-					<Image
+					<img
 						src={monaco23}
 						alt="Monaco 2 Devlog"
 						width={300}
@@ -83,7 +81,7 @@ let description = "Collection of games created by us.";
 					href="https://www.youtube.com/watch?v=_RUzZ69hoiY"
 					data-gallery="monaco2"
 				>
-					<Image
+					<img
 						src={monaco24}
 						alt="Monaco 2 Devlog"
 						width={300}
@@ -102,37 +100,33 @@ let description = "Collection of games created by us.";
 			<p>Build a base, lead your army, eat your enemies!</p>
 			<section class="img-slider" slot="media">
 				<a class="glightbox" href={tnt1.src} data-gallery="tnt">
-					<Image
+					<img
 						src={tnt1}
 						alt="Tooth and Tail Screenshot"
-						format="webp"
 						width={300}
 					/>
 				</a>
 
 				<a class="glightbox" href={tnt2.src} data-gallery="tnt">
-					<Image
+					<img
 						src={tnt2}
 						alt="Tooth and Tail Screenshot"
-						format="webp"
 						width={300}
 					/>
 				</a>
 
 				<a class="glightbox" href={tnt3.src} data-gallery="tnt">
-					<Image
+					<img
 						src={tnt3}
 						alt="Tooth and Tail Screenshot"
-						format="webp"
 						width={300}
 					/>
 				</a>
 
 				<a class="glightbox" href={tnt4.src} data-gallery="tnt">
-					<Image
+					<img
 						src={tnt4}
 						alt="Tooth and Tail Screenshot"
-						format="webp"
 						width={300}
 					/>
 				</a>
@@ -152,37 +146,33 @@ let description = "Collection of games created by us.";
 
 			<section class="img-slider" slot="media">
 				<a href={monaco1.src} class="glightbox" data-gallery="monaco">
-					<Image
+					<img
 						src={monaco1}
 						alt="Monaco 1 Screenshot"
-						format="webp"
 						width={300}
 					/>
 				</a>
 
 				<a href={monaco2.src} class="glightbox" data-gallery="monaco">
-					<Image
+					<img
 						src={monaco2}
 						alt="Monaco 1 Screenshot"
-						format="webp"
 						width={300}
 					/>
 				</a>
 
 				<a href={monaco3.src} class="glightbox" data-gallery="monaco">
-					<Image
+					<img
 						src={monaco3}
 						alt="Monaco 1 Screenshot"
-						format="webp"
 						width={300}
 					/>
 				</a>
 
 				<a href={monaco4.src} class="glightbox" data-gallery="monaco">
-					<Image
+					<img
 						src={monaco4}
 						alt="Monaco 1 Screenshot"
-						format="webp"
 						width={300}
 					/>
 				</a>
