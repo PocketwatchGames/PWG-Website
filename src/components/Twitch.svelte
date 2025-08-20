@@ -10,7 +10,6 @@
 	});
 </script>
 
-<span />
 {#if mounted}
 	<iframe
 		{src}
