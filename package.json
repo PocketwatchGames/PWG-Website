@@ -9,16 +9,16 @@
 		"preview": "astro preview"
 	},
 	"devDependencies": {
-		"@astrojs/image": "^0.12.1",
-		"@astrojs/svelte": "^1.0.0",
-		"astro": "^1.0.3",
+		"@astrojs/image": "^0.14.1",
+		"@astrojs/svelte": "^2.0.1",
+		"astro": "^2.0.11",
 		"prettier": "^2.8.0",
 		"prettier-plugin-astro": "^0.7.0",
 		"sharp": "^0.34.0",
 		"svelte": "^3.49.0"
 	},
 	"dependencies": {
-		"@astrojs/vercel": "^1.0.1",
+		"@astrojs/vercel": "^2.0.0",
 		"twitter-lite": "^1.1.0"
 	},
 	"packageManager": "pnpm@10.7.1"
