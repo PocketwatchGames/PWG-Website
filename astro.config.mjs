@@ -14,5 +14,5 @@ export default defineConfig({
 	],
 	output: "server",
 	adapter: vercel(),
-	site: "http://www.pocketwatchgames.com",
+	site: "http://www.pocketwatchgames.com/",
 });
