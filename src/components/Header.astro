@@ -18,7 +18,8 @@ const { active } = Astro.props;
 	</a>
 
 	<ul class="link-list">
-		<li>
+		<li><strong>Pocketwatch Games</strong> - Still ticking!</li>
+		<!-- <li>
 			<a class={active === "games" ? "active" : ""} href="/games">Games</a>
 		</li>
 		<li>
@@ -37,10 +38,10 @@ const { active } = Astro.props;
 		<li>
 			<a class={active === "contact" ? "active" : ""} href="/contact">Contact</a
 			>
-		</li>
+		</li>-->
 	</ul>
 
-	<ul class="social-list">
+	<!--<ul class="social-list">
 		<li class="social">
 			<a href="//www.twitch.tv/pocketwatch">
 				<img
@@ -67,7 +68,7 @@ const { active } = Astro.props;
 				/>
 			</a>
 		</li>
-	</ul>
+	</ul> -->
 </header>
 
 <style>
@@ -79,6 +80,7 @@ const { active } = Astro.props;
 	header {
 		align-items: center;
 		background: var(--color-navy);
+		color: white;
 		font-family: Gilam, var(--font-body);
 		font-style: italic;
 		height: 130px;
@@ -89,6 +91,10 @@ const { active } = Astro.props;
 		top: 0;
 		width: 100%;
 		z-index: 1;
+
+		& strong {
+			color: var(--color-magenta);
+		}
 	}
 
 	.link-list {
